@@ -1,4 +1,10 @@
+import Gallery from "@/components/sections/gallery";
 import Landing from "@/components/sections/landing";
+import Screenings from "@/components/sections/screenings";
+import Sponsors from "@/components/sections/sponsors";
+import Store from "@/components/sections/store";
+import Synopsis from "@/components/sections/synopsis";
+import Trailer from "@/components/sections/trailer";
 import { getTranslations } from "@/i18n";
 
 interface PageProps {
@@ -24,6 +30,13 @@ const Page = async ({ params: { locale } }: PageProps) => {
 		<div>
 			{t("Index.title")}
 			<Landing />
+			<Synopsis />
+			<Trailer />
+			<Synopsis />
+			<Screenings />
+			<Gallery />
+			<Store />
+			<Sponsors />
 		</div>
 	);
 };
