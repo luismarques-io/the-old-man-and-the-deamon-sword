@@ -1,6 +1,8 @@
 import Providers from "./providers";
 import i18nextConfig from "../../../next-i18next.config";
 
+import "./global.css";
+
 export async function generateStaticParams() {
 	return i18nextConfig.i18n.locales.map((locale) => ({
 		locale

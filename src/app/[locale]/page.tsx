@@ -1,3 +1,4 @@
+import Landing from "@/components/sections/landing";
 import { getTranslations } from "@/i18n";
 
 interface PageProps {
@@ -19,7 +20,12 @@ const Page = async ({ params: { locale } }: PageProps) => {
 	// You can also provide a namespace to the getTranslations config
 	// like so: getTranslations({ locale, namespace: "Index" })
 	// And then use t("title")
-	return <div>{t("Index.title")}</div>;
+	return (
+		<div>
+			{t("Index.title")}
+			<Landing />
+		</div>
+	);
 };
 
 export default Page;

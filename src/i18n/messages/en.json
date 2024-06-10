@@ -1,8 +1,9 @@
 {
-  "Index": {
-    "title": "Hello Server!"
-  },
-  "ClientPage": {
-    "title": "Hello Client!"
-  }
+	"Index": {
+		"title": "The Old Man and the Daemon Sword",
+		"description": "Bla bla bla bla."
+	},
+	"ClientPage": {
+		"title": "Hello Client!"
+	}
 }
