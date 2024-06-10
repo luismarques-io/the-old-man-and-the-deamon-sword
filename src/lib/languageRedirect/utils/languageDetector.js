@@ -1,5 +1,5 @@
 // inspired by: https://github.com/i18next/next-language-detector
-import i18nextConfig from "../../next-i18next.config";
+import i18nextConfig from "../../../../next-i18next.config";
 
 const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
 

@@ -1,7 +1,7 @@
 import { getTranslations } from "@/i18n";
 import i18nextConfig from "../../next-i18next.config";
 
-import RedirectComponent from "@/lib/redirectComponent";
+import LanguageRedirect from "@/lib/languageRedirect";
 
 export async function generateMetadata() {
 	const t = await getTranslations({ locale: i18nextConfig.i18n.defaultLocale });
@@ -17,5 +17,5 @@ export async function generateMetadata() {
 }
 
 export default async function RootPage() {
-	return <RedirectComponent />;
+	return <LanguageRedirect />;
 }

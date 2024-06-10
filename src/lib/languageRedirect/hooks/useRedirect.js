@@ -1,5 +1,5 @@
 import { usePathname, useSearchParams, redirect } from "next/navigation";
-import languageDetector from "./languageDetector";
+import languageDetector from "../utils/languageDetector";
 
 export const useRedirect = (to) => {
 	const pathname = usePathname();
@@ -15,9 +15,4 @@ export const useRedirect = (to) => {
 	}
 
 	redirect(`/${detectedLng}${target}${searchParams ? "?" + searchParams : ""}`);
-};
-
-export const Redirect = () => {
-	useRedirect();
-	return null;
 };
