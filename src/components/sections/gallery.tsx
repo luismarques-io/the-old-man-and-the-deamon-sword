@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
-import Slider from "react-slick";
+import Slider, { Settings, LazyLoadTypes } from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -31,7 +31,7 @@ const Gallery = () => {
 		speed: 500,
 		slidesToShow: 1,
 		slidesToScroll: 1,
-		lazyLoad: true,
+		lazyLoad: "progressive" as LazyLoadTypes,
 		adaptiveHeight: true,
 		autoplay: true,
 		autoplaySpeed: 2000,
@@ -44,7 +44,7 @@ const Gallery = () => {
 				}
 			}
 		]
-	};
+	} as Settings;
 
 	return (
 		<section className="page-section" id="gallery">
