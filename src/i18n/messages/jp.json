@@ -1,8 +1,86 @@
 {
-	"Index": {
-		"title": "test!"
+	"Metadata": {
+		"baseUrl": "http://the-old-man-and-the-deamon-sword.fabiopowers.com/",
+		"title": "老人と悪魔の剣",
+		"description": "遠くの山村に、悪魔の剣を持った僧がやって来ます。やがて、神秘的な武器は町の酔っ払いアントニオ・ダ・ルスの手に渡ります。今、酔っ払いは迫り来る悪と戦うために学ばなければなりません。",
+		"openGraph": {
+			"images": "/images/poster-jp.jpg"
+		}
 	},
-	"ClientPage": {
-		"title": "test!"
+	"Landing": {
+		"title": "老人と悪魔の剣"
+	},
+	"Synopsis": {
+		"title": "あらすじ",
+		"image-alt-text": "剣を持つトンホ",
+		"text": "遠くの山村に、悪魔の剣を持った僧がやって来ます。やがて、神秘的な武器は町の酔っ払いアントニオ・ダ・ルスの手に渡ります。今、酔っ払いは迫り来る悪と戦うために学ばなければなりません。",
+		"link-imdb": "https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk"
+	},
+	"Trailer": {
+		"title": "公式トレーラー",
+		"video-id": "OGohWTfZfaU"
+	},
+	"Screenings": {
+		"title": "上映",
+		"image-alt-text": "剣を持つトンホ",
+		"table-head": {
+			"date": "日付",
+			"location": "場所",
+			"city": "市",
+			"country": "国"
+		},
+		"table": {
+			"0": {
+				"date": "2022-01-01",
+				"location": "シネマシティ",
+				"city": "ブカレスト",
+				"country": "ルーマニア"
+			},
+			"1": {
+				"date": "2022-01-02",
+				"location": "シネプレックス・オデオン",
+				"city": "トロント",
+				"country": "カナダ"
+			},
+			"2": {
+				"date": "2022-01-03",
+				"location": "AMCエンパイア25",
+				"city": "ニューヨーク",
+				"country": "アメリカ"
+			},
+			"3": {
+				"date": "2022-01-04",
+				"location": "シネワールド",
+				"city": "ロンドン",
+				"country": "イギリス"
+			},
+			"4": {
+				"date": "2022-01-05",
+				"location": "PVRシネマ",
+				"city": "ムンバイ",
+				"country": "インド"
+			}
+		}
+	},
+	"Gallery": {
+		"title": "ギャラリー",
+		"poster-alt-text": "ポスター",
+		"images": {
+			"0": {
+				"src": "/images/gallery/image-1.jpg",
+				"alt": "画像1"
+			},
+			"1": {
+				"src": "/images/gallery/image-2.jpg",
+				"alt": "画像2"
+			}
+		}
+	},
+	"Store": {
+		"title": "公式ストア"
+	},
+	"Sponsors": {
+		"title": "クレジット/スポンサー",
+		"image-alt-text": "クレジット/スポンサー"
 	}
 }

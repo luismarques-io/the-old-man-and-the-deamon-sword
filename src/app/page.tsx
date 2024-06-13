@@ -4,14 +4,14 @@ import i18nextConfig from "../../next-i18next.config";
 import LanguageRedirect from "@/lib/languageRedirect";
 
 export async function generateMetadata() {
-	const t = await getTranslations({ locale: i18nextConfig.i18n.defaultLocale });
+	const t = await getTranslations({ locale: i18nextConfig.i18n.defaultLocale, namespace: "Metadata" });
 
 	return {
-		metadataBase: new URL("http://the-old-man-and-the-deamon-sword.fabiopowers.com/"),
-		title: t("Index.title"),
-		description: t("Index.description"),
+		metadataBase: new URL(t("baseUrl") as string),
+		title: t("title"),
+		description: t("description"),
 		openGraph: {
-			images: "/img/header-bg.jpg"
+			images: t("openGraph.images")
 		}
 	};
 }

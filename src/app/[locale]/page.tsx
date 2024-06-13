@@ -1,3 +1,4 @@
+import Navbar from "@/components/navigation/NavBar";
 import Gallery from "@/components/sections/gallery";
 import Landing from "@/components/sections/landing";
 import Screenings from "@/components/sections/screenings";
@@ -12,27 +13,25 @@ interface PageProps {
 }
 
 export async function generateMetadata({ params: { locale } }: PageProps) {
-	const t = await getTranslations({ locale });
+	const t = await getTranslations({ locale, namespace: "Metadata" });
 
 	return {
-		title: t("Index.title"),
-		description: t("Index.title")
+		metadataBase: new URL(t("baseUrl") as string),
+		title: t("title"),
+		description: t("description"),
+		openGraph: {
+			images: t("openGraph.images")
+		}
 	};
 }
 
 const Page = async ({ params: { locale } }: PageProps) => {
-	const t = await getTranslations({ locale });
-
-	// You can also provide a namespace to the getTranslations config
-	// like so: getTranslations({ locale, namespace: "Index" })
-	// And then use t("title")
 	return (
 		<div>
-			{t("Index.title")}
+			<Navbar />
 			<Landing />
 			<Synopsis />
 			<Trailer />
-			<Synopsis />
 			<Screenings />
 			<Gallery />
 			<Store />

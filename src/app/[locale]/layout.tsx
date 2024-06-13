@@ -1,6 +1,10 @@
 import Providers from "./providers";
 import i18nextConfig from "../../../next-i18next.config";
+import { aleo } from "@/fonts";
 
+// import "./agency.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./custom-agency.css";
 import "./global.css";
 
 export async function generateStaticParams() {
@@ -23,7 +27,7 @@ export default async function RootLayout({ children, params }: RootLayoutProps) 
 	const messages = await getMessages(params.locale);
 	return (
 		<html lang={params.locale}>
-			<body>
+			<body className={aleo.className}>
 				<Providers messages={messages} locale={params.locale}>
 					{children}
 				</Providers>

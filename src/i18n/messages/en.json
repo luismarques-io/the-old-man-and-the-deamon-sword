@@ -1,9 +1,86 @@
 {
-	"Index": {
+	"Metadata": {
+		"baseUrl": "http://the-old-man-and-the-deamon-sword.fabiopowers.com/",
 		"title": "The Old Man and the Daemon Sword",
-		"description": "Bla bla bla bla."
+		"description": "In the remote mountain village a monk arrives wielding a demonic sword. Before long, the mystical weapon ends up in the hands of the town drunk António da Luz. Now, the drunkard will have to learn to fight an encroaching evil together.",
+		"openGraph": {
+			"images": "/images/poster-en.jpg"
+		}
 	},
-	"ClientPage": {
-		"title": "Hello Client!"
+	"Landing": {
+		"title": "The Old Man and the Daemon Sword"
+	},
+	"Synopsis": {
+		"title": "Synopsis",
+		"image-alt-text": "Tonho with sword",
+		"text": "In the remote mountain village a monk arrives wielding a demonic sword. Before long, the mystical weapon ends up in the hands of the town drunk António da Luz. Now, the drunkard will have to learn to fight an encroaching evil together.",
+		"link-imdb": "https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk"
+	},
+	"Trailer": {
+		"title": "Official Trailer",
+		"video-id": "OGohWTfZfaU"
+	},
+	"Screenings": {
+		"title": "Screenings",
+		"image-alt-text": "Tonho with sword",
+		"table-head": {
+			"date": "Date",
+			"location": "Location",
+			"city": "City",
+			"country": "Country"
+		},
+		"table": {
+			"0": {
+				"date": "2022-01-01",
+				"location": "Cinema City",
+				"city": "Bucharest",
+				"country": "Romania"
+			},
+			"1": {
+				"date": "2022-01-02",
+				"location": "Cineplex Odeon",
+				"city": "Toronto",
+				"country": "Canada"
+			},
+			"2": {
+				"date": "2022-01-03",
+				"location": "AMC Empire 25",
+				"city": "New York",
+				"country": "USA"
+			},
+			"3": {
+				"date": "2022-01-04",
+				"location": "Cineworld",
+				"city": "London",
+				"country": "UK"
+			},
+			"4": {
+				"date": "2022-01-05",
+				"location": "PVR Cinemas",
+				"city": "Mumbai",
+				"country": "India"
+			}
+		}
+	},
+	"Gallery": {
+		"title": "Gallery",
+		"poster-alt-text": "Poster",
+		"images": {
+			"0": {
+				"src": "/images/gallery/image-1.jpg",
+				"alt": "Image 1"
+			},
+			"1": {
+				"src": "/images/gallery/image-2.jpg",
+				"alt": "Image 2"
+			}
+		}
+	},
+	"Store": {
+		"title": "Official Store"
+	},
+	"Sponsors": {
+		"title": "Credits/Sponsors",
+		"image-alt-text": "Credits/Sponsors"
 	}
 }

@@ -1,12 +1,86 @@
 {
+	"Metadata": {
+		"baseUrl": "http://the-old-man-and-the-deamon-sword.fabiopowers.com/",
+		"title": "O Velho e a Espada",
+		"description": "Numa remota aldeia montanhosa, chega um monge empunhando uma espada demoníaca. Em pouco tempo, a arma mística acaba nas mãos do bêbado da cidade, António da Luz. Agora, o bêbado terá que aprender a combater um mal que se aproxima juntos.",
+		"openGraph": {
+			"images": "/images/poster-pt.jpg"
+		}
+	},
 	"Landing": {
 		"title": "O Velho e a Espada"
 	},
-	"Index": {
-		"title": "O Velho e a Espada",
-		"description": "Bla bla bla bla."
+	"Synopsis": {
+		"title": "Sinopse",
+		"image-alt-text": "Tonho com a espada",
+		"text": "Numa remota aldeia montanhosa, chega um monge empunhando uma espada demoníaca. Em pouco tempo, a arma mística acaba nas mãos do bêbado da cidade, António da Luz. Agora, o bêbado terá que aprender a combater um mal que se aproxima juntos.",
+		"link-imdb": "https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk"
 	},
-	"ClientPage": {
-		"title": "Olá Cliente!"
+	"Trailer": {
+		"title": "Trailer Oficial",
+		"video-id": "OGohWTfZfaU"
+	},
+	"Screenings": {
+		"title": "Exibições",
+		"image-alt-text": "Tonho com a espada",
+		"table-head": {
+			"date": "Data",
+			"location": "Local",
+			"city": "Cidade",
+			"country": "País"
+		},
+		"table": {
+			"0": {
+				"date": "2022-01-01",
+				"location": "Cinema City",
+				"city": "Bucareste",
+				"country": "Romênia"
+			},
+			"1": {
+				"date": "2022-01-02",
+				"location": "Cineplex Odeon",
+				"city": "Toronto",
+				"country": "Canadá"
+			},
+			"2": {
+				"date": "2022-01-03",
+				"location": "AMC Empire 25",
+				"city": "Nova Iorque",
+				"country": "EUA"
+			},
+			"3": {
+				"date": "2022-01-04",
+				"location": "Cineworld",
+				"city": "Londres",
+				"country": "Reino Unido"
+			},
+			"4": {
+				"date": "2022-01-05",
+				"location": "PVR Cinemas",
+				"city": "Mumbai",
+				"country": "Índia"
+			}
+		}
+	},
+	"Gallery": {
+		"title": "Faleria",
+		"poster-alt-text": "Poster",
+		"images": {
+			"0": {
+				"src": "/images/gallery/image-1.jpg",
+				"alt": "Imagem 1"
+			},
+			"1": {
+				"src": "/images/gallery/image-2.jpg",
+				"alt": "Imagem 2"
+			}
+		}
+	},
+	"Store": {
+		"title": "Loja Oficial"
+	},
+	"Sponsors": {
+		"title": "Créditos/Apoios",
+		"image-alt-text": "Créditos/Apoios"
 	}
 }
