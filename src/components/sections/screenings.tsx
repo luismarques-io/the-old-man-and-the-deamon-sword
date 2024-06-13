@@ -30,7 +30,9 @@ const Screenings = () => {
 				</div>
 				<div className="row">
 					<div className="col-md-6">
-						<Image src={`/images/tonho-with-sword.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+						<div className="main-character-container">
+							<Image src={`/images/tonho-with-sword.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+						</div>
 					</div>
 					<div className="col-md-6 mt-5">
 						<table className="table">

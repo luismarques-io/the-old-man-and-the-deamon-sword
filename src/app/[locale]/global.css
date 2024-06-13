@@ -20,6 +20,28 @@ h1,
 	font-family: var(--font-aleo);
 }
 
+/* Synopsis */
+
+#synopsis {
+	font-size: 1.1rem;
+}
+
+@media (min-width: 992px) {
+	#synopsis .main-character-container {
+		width: 140%;
+		margin-top: -30%;
+	}
+}
+
+/* Screenings */
+
+@media (min-width: 992px) {
+	#screenings .main-character-container {
+		position: relative;
+		width: 140%;
+	}
+}
+
 /* Trailer */
 
 .video-responsive {
