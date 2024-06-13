@@ -4,7 +4,7 @@
 		"title": "O Velho e a Espada",
 		"description": "Numa remota aldeia montanhosa, chega um monge empunhando uma espada demoníaca. Em pouco tempo, a arma mística acaba nas mãos do bêbado da cidade, António da Luz. Agora, o bêbado terá que aprender a combater um mal que se aproxima juntos.",
 		"openGraph": {
-			"images": "/images/poster-pt.jpg"
+			"images": "/images/title-pt.png"
 		}
 	},
 	"Landing": {
@@ -63,7 +63,7 @@
 		}
 	},
 	"Gallery": {
-		"title": "Faleria",
+		"title": "Galeria",
 		"poster-alt-text": "Poster",
 		"images": {
 			"0": {
