@@ -26,7 +26,7 @@ interface RootLayoutProps {
 export default async function RootLayout({ children, params }: RootLayoutProps) {
 	const messages = await getMessages(params.locale);
 	return (
-		<html lang={params.locale}>
+		<html lang={params.locale} data-bs-theme="dark">
 			<body className={aleo.className}>
 				<Providers messages={messages} locale={params.locale}>
 					{children}

@@ -35,34 +35,36 @@ const Screenings = () => {
 						</div>
 					</div>
 					<div className="col-md-6 mt-5">
-						<table className="table">
-							<thead>
-								<tr>
-									<th scope="col">{t("table-head.date")}</th>
-									<th scope="col">{t("table-head.location")}</th>
-									<th scope="col">{t("table-head.city")}</th>
-									<th scope="col">{t("table-head.country")}</th>
-								</tr>
-							</thead>
-							<tbody>
-								{rowKeys.map((key) => (
-									<tr key={key}>
-										<th scope="row">
-											<div className="py-2">{t(`table.${key}.date`)}</div>
-										</th>
-										<td>
-											<div className="py-2">{t(`table.${key}.location`)}</div>
-										</td>
-										<td>
-											<div className="py-2">{t(`table.${key}.city`)}</div>
-										</td>
-										<td>
-											<div className="py-2">{t(`table.${key}.country`)}</div>
-										</td>
+						<div className="table-container">
+							<table className="table">
+								<thead>
+									<tr>
+										<th scope="col">{t("table-head.date")}</th>
+										<th scope="col">{t("table-head.location")}</th>
+										<th scope="col">{t("table-head.city")}</th>
+										<th scope="col">{t("table-head.country")}</th>
 									</tr>
-								))}
-							</tbody>
-						</table>
+								</thead>
+								<tbody>
+									{rowKeys.map((key) => (
+										<tr key={key}>
+											<th scope="row">
+												<div className="py-2">{t(`table.${key}.date`)}</div>
+											</th>
+											<td>
+												<div className="py-2">{t(`table.${key}.location`)}</div>
+											</td>
+											<td>
+												<div className="py-2">{t(`table.${key}.city`)}</div>
+											</td>
+											<td>
+												<div className="py-2">{t(`table.${key}.country`)}</div>
+											</td>
+										</tr>
+									))}
+								</tbody>
+							</table>
+						</div>
 					</div>
 				</div>
 			</div>

@@ -55,10 +55,10 @@ const Gallery = () => {
 				<div className="row">
 					<div className="col-md-4 mt-5">
 						<div className="mx-md-2">
-							<Image src={`/images/poster-${locale}.jpg`} alt={t("poster-alt-text")} width={3400} height={4961} style={{ width: "100%", height: "auto" }} />
+							<Image src={`/images/poster-${locale}.jpg`} alt={t("poster-alt-text")} className="shadow" width={3400} height={4961} style={{ width: "100%", height: "auto" }} />
 						</div>
 					</div>
-					<div className="col-md-8 mt-5 ps-md-5">
+					<div className="col-md-8 mt-5 ps-md-5 pt-md-5">
 						<Slider {...sliderSettings}>
 							{imageKeys.map((key) => (
 								<div key={key}>

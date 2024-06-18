@@ -29,7 +29,7 @@ export async function generateMetadata({ params: { locale } }: PageProps) {
 const Page = async ({ params: { locale } }: PageProps) => {
 	return (
 		<div>
-			{/* <Background /> */}
+			<Background />
 			<Navbar />
 			<Landing />
 			<Synopsis />

@@ -9,8 +9,8 @@ const Landing = () => {
 
 	return (
 		// <header className="masthead" style={{ height: "100vh" }}>
-		// <section className="p-0" style={{ height: "100vh" }}>
-		<section className="p-0 pb-5">
+		// <section className="p-0 pb-5">
+		<section className="p-0" style={{ height: "100vh", display: "flex", alignItems: "center" }}>
 			{/* <Image src="/images/background-poster.png" alt="section" layout="fill" objectFit="cover" /> */}
 			<div className="container text-center" style={{ position: "relative" }}>
 				<Image

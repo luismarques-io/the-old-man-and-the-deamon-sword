@@ -8,7 +8,7 @@ const Sponsors = () => {
 	const locale = useLocale();
 
 	return (
-		<section className="page-section text-bg-dark pb-3" id="sponsors">
+		<section className="page-section pb-3" id="sponsors">
 			<div className="container">
 				<div className="text-center">
 					<h2 className="section-heading text-uppercase">{t("title")}</h2>
