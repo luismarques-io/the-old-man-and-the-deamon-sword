@@ -2,6 +2,7 @@ import Navbar from "@/components/navigation/NavBar";
 import Gallery from "@/components/sections/gallery";
 import Landing from "@/components/sections/landing";
 import Screenings from "@/components/sections/screenings";
+import SocialFooter from "@/components/sections/socialFooter";
 import Sponsors from "@/components/sections/sponsors";
 import Store from "@/components/sections/store";
 import Synopsis from "@/components/sections/synopsis";
@@ -37,6 +38,7 @@ const Page = async ({ params: { locale } }: PageProps) => {
 			<Screenings />
 			<Gallery />
 			{/* <Store /> */}
+			<SocialFooter />
 			<Sponsors />
 		</div>
 	);

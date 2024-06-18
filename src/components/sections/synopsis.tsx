@@ -2,10 +2,10 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
+import SocialButtons from "../ui/socialButtons";
 
 const Synopsis = () => {
 	const t = useTranslations("Synopsis");
-	const locale = useLocale();
 
 	return (
 		<section className="page-section" id="synopsis">
@@ -25,6 +25,9 @@ const Synopsis = () => {
 							<a href="https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk" target="_blank" rel="noopener noreferrer">
 								<Image src={`/images/logos/imdb-logo.png`} alt="IMDb" width={100} height={50} />
 							</a>
+						</div>
+						<div className="d-flex justify-content-end pt-3">
+							<SocialButtons />
 						</div>
 					</div>
 				</div>

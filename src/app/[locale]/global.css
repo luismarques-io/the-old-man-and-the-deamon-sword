@@ -328,7 +328,40 @@ html .slick-dots li.slick-active button:before {
 #localesNav .navbar-nav {
 	/* background-color: rgba(255, 255, 255, 0.8); */
 	background-color: rgba(0, 0, 0, 0.4);
+	backdrop-filter: blur(10px);
 	border-radius: 20px;
 	padding: 0 6px;
+}
+
+/* Social Buttons */
+
+.social-buttons a {
+	color: var(--bs-body-color);
+	padding: 10px;
+	font-size: 24px;
+
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+.social-buttons a:hover {
+	opacity: 1;
+}
+
+/* Social */
+
+#socialFooter {
+	background-color: rgba(0, 0, 0, 0.2);
 	backdrop-filter: blur(10px);
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
+}
+#socialFooter .social-buttons {
+	display: flex;
+	justify-content: space-around;
+
+	padding: 10px;
+	/* border-radius: 50px; */
+}
+
+#socialFooter .social-buttons a {
+	font-size: 32px;
 }

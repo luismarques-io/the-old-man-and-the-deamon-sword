@@ -7,6 +7,13 @@
 			"images": "/images/title-en.png"
 		}
 	},
+	"Social": {
+		"instagramUrl": "https://instagram.com/ofilmedovelho",
+		"facebookUrl": "https://facebook.com/ofilmedovelho",
+		"xUrl": "https://x.com/ofilmedovelho",
+		"youtubeUrl": "https://youtube.com/ofilmedovelho",
+		"threadsUrl": "https://threads.com/ofilmedovelho"
+	},
 	"Landing": {
 		"title": "The Old Man and the Daemon Sword"
 	},
