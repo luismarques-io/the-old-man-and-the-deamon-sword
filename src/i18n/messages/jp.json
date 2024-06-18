@@ -67,12 +67,44 @@
 		"poster-alt-text": "ポスター",
 		"images": {
 			"0": {
-				"src": "/images/gallery/image-1.jpg",
-				"alt": "画像1"
+				"src": "/images/gallery/Still (1).jpg",
+				"alt": "Still (1)"
 			},
 			"1": {
-				"src": "/images/gallery/image-2.jpg",
-				"alt": "画像2"
+				"src": "/images/gallery/Still (2).jpg",
+				"alt": "Still (2)"
+			},
+			"2": {
+				"src": "/images/gallery/Still (3).jpg",
+				"alt": "Still (3)"
+			},
+			"3": {
+				"src": "/images/gallery/Still (4).jpg",
+				"alt": "Still (4)"
+			},
+			"4": {
+				"src": "/images/gallery/Still (5).jpg",
+				"alt": "Still (5)"
+			},
+			"5": {
+				"src": "/images/gallery/Still (6).jpg",
+				"alt": "Still (6)"
+			},
+			"6": {
+				"src": "/images/gallery/Still (7).jpg",
+				"alt": "Still (7)"
+			},
+			"7": {
+				"src": "/images/gallery/Still (8).jpg",
+				"alt": "Still (8)"
+			},
+			"8": {
+				"src": "/images/gallery/Still (9).jpg",
+				"alt": "Still (9)"
+			},
+			"9": {
+				"src": "/images/gallery/Still (10).jpg",
+				"alt": "Still (10)"
 			}
 		}
 	},

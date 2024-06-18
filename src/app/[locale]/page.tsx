@@ -6,6 +6,7 @@ import Sponsors from "@/components/sections/sponsors";
 import Store from "@/components/sections/store";
 import Synopsis from "@/components/sections/synopsis";
 import Trailer from "@/components/sections/trailer";
+import Background from "@/components/ui/background";
 import { getTranslations } from "@/i18n";
 
 interface PageProps {
@@ -28,13 +29,14 @@ export async function generateMetadata({ params: { locale } }: PageProps) {
 const Page = async ({ params: { locale } }: PageProps) => {
 	return (
 		<div>
+			{/* <Background /> */}
 			<Navbar />
 			<Landing />
 			<Synopsis />
 			<Trailer />
 			<Screenings />
 			<Gallery />
-			<Store />
+			{/* <Store /> */}
 			<Sponsors />
 		</div>
 	);
