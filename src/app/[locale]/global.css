@@ -280,6 +280,12 @@ html .slick-dots li button:before,
 html .slick-dots li.slick-active button:before {
 	color: var(--bs-body-color);
 }
+html .slick-dots li button:before {
+	opacity: 0.5;
+}
+html .slick-dots li.slick-active button:before {
+	opacity: 1;
+}
 
 /* Sponsors */
 
