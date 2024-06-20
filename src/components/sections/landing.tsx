@@ -17,12 +17,18 @@ const Landing = () => {
 					width={3840}
 					height={2160}
 					sizes="100vw"
-					className="m-auto"
-					style={{ width: "100%", height: "auto", maxHeight: "100vh", maxWidth: "100vw" }}
+					className="m-auto fadeIn"
+					style={{
+						width: "100%",
+						height: "auto",
+						maxHeight: "100vh",
+						maxWidth: "100vw",
+						animation: "fadeIn 1s ease-in"
+					}}
 				/>
 			</div>
 			<div
-				className="text-center"
+				className="text-center scrollreveal"
 				style={{
 					position: "absolute",
 					bottom: 20,
@@ -30,7 +36,9 @@ const Landing = () => {
 					width: "100%"
 				}}
 			>
-				<Prizes />
+				<div className="scrollreveal__frombottom scrollreveal__delay1">
+					<Prizes />
+				</div>
 			</div>
 		</section>
 	);

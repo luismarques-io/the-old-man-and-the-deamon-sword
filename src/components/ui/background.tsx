@@ -20,7 +20,8 @@ const Background = () => {
 					fill
 					// sizes="100vw"
 					objectFit="cover"
-					style={{ maxWidth: "100vw", maxHeight: "100vh", opacity: 0.6 }}
+					className="backgroundFadeIn"
+					style={{ maxWidth: "100vw", maxHeight: "100vh", opacity: 0.6, animation: "backgroundFadeIn 3s ease-in" }}
 				/>
 
 				<Image
@@ -29,7 +30,8 @@ const Background = () => {
 					fill
 					// sizes="100vw"
 					objectFit="cover"
-					style={{ maxWidth: "100vw", maxHeight: "100vh", opacity: 0.8, top: "50%" }}
+					className="medosFadeIn"
+					style={{ maxWidth: "100vw", maxHeight: "100vh", opacity: 0.8, top: "50%", animation: "medosFadeIn 0.5s ease-in" }}
 				/>
 			</div>
 			{/* <div>

@@ -382,3 +382,32 @@ html .slick-dots li.slick-active button:before {
 #socialFooter .social-buttons a {
 	font-size: 32px;
 }
+
+/* Animations */
+
+@keyframes backgroundFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.6;
+	}
+}
+
+@keyframes medosFadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 0.8;
+	}
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
