@@ -8,6 +8,7 @@ import Store from "@/components/sections/store";
 import Synopsis from "@/components/sections/synopsis";
 import Trailer from "@/components/sections/trailer";
 import Background from "@/components/ui/background";
+// import Parallax from "@/components/ui/paralax";
 import { getTranslations } from "@/i18n";
 
 interface PageProps {
@@ -30,6 +31,7 @@ export async function generateMetadata({ params: { locale } }: PageProps) {
 const Page = async ({ params: { locale } }: PageProps) => {
 	return (
 		<div>
+			{/* <Parallax /> */}
 			<Background />
 			<Navbar />
 			<Landing />

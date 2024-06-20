@@ -47,18 +47,18 @@ const Gallery = () => {
 	} as Settings;
 
 	return (
-		<section className="page-section" id="gallery">
+		<section className="page-section scrollreveal" id="gallery">
 			<div className="container">
 				<div className="text-center">
-					<h2 className="section-heading text-uppercase">{t("title")}</h2>
+					<h2 className="section-heading text-uppercase scrollreveal__frombottom">{t("title")}</h2>
 				</div>
 				<div className="row">
-					<div className="col-md-4 mt-5">
-						<div className="mx-md-2">
-							<Image src={`/images/poster-${locale}.jpg`} alt={t("poster-alt-text")} className="shadow" width={3400} height={4961} style={{ width: "100%", height: "auto" }} />
+					<div className="col-md-4 mt-5 scrollreveal__frombottom scrollreveal__delay025">
+						<div className="mx-md-2 shadow-lg">
+							<Image src={`/images/poster-${locale}.avif`} alt={t("poster-alt-text")} className="shadow" width={3400} height={4961} style={{ width: "100%", height: "auto" }} />
 						</div>
 					</div>
-					<div className="col-md-8 mt-5 ps-md-5 pt-md-5">
+					<div className="col-md-8 mt-5 ps-md-5 pt-md-5 scrollreveal__frombottom scrollreveal__delay050">
 						<Slider {...sliderSettings}>
 							{imageKeys.map((key) => (
 								<div key={key}>

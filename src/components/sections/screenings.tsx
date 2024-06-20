@@ -23,18 +23,18 @@ const Screenings = () => {
 	const rowKeys = Object.keys(data.Screenings.table);
 
 	return (
-		<section className="page-section" id="screenings">
+		<section className="page-section scrollreveal" id="screenings">
 			<div className="container">
 				<div className="text-center">
-					<h2 className="section-heading text-uppercase">{t("title")}</h2>
+					<h2 className="section-heading text-uppercase scrollreveal__frombottom">{t("title")}</h2>
 				</div>
 				<div className="row">
-					<div className="col-md-6">
+					<div className="col-md-6 scrollreveal__frombottom scrollreveal__delay025">
 						<div className="main-character-container">
-							<Image src={`/images/tonho-with-sword.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+							<Image src={`/images/tonho-with-sword.avif`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
 						</div>
 					</div>
-					<div className="col-md-6 mt-5">
+					<div className="col-md-6 mt-5 scrollreveal__frombottom scrollreveal__delay050">
 						<div className="table-container">
 							<table className="table">
 								<thead>

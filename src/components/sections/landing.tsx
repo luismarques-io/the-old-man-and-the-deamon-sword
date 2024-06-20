@@ -2,33 +2,35 @@
 
 import { useTranslations, useLocale } from "next-intl";
 import Image from "next/image";
+import Prizes from "../ui/prizes";
 
 const Landing = () => {
 	const t = useTranslations("Landing");
 	const locale = useLocale();
 
 	return (
-		// <header className="masthead" style={{ height: "100vh" }}>
-		// <section className="p-0 pb-5">
-		<section className="p-0" style={{ height: "100vh", display: "flex", alignItems: "center" }}>
-			{/* <Image src="/images/background-poster.png" alt="section" layout="fill" objectFit="cover" /> */}
+		<section className="p-0" style={{ height: "100vh", display: "flex", alignItems: "center", position: "relative", paddingBottom: "1em !important" }}>
 			<div className="container text-center" style={{ position: "relative" }}>
 				<Image
-					src={`/images/title-${locale}.png`}
-					alt="title"
+					src={`/images/title-${locale}.avif`}
+					alt={t("image-alt-text")}
 					width={3840}
 					height={2160}
 					sizes="100vw"
 					className="m-auto"
 					style={{ width: "100%", height: "auto", maxHeight: "100vh", maxWidth: "100vw" }}
 				/>
-				{/* <div className="masthead-subheading">
-					{t("title")} {locale}
-				</div>
-				<div className="masthead-heading text-uppercase">It&apos;s Nice To Meet You</div>
-				<a className="btn btn-primary btn-xl text-uppercase" href="#services">
-					Tell Me More
-				</a> */}
+			</div>
+			<div
+				className="text-center"
+				style={{
+					position: "absolute",
+					bottom: 20,
+					left: 0,
+					width: "100%"
+				}}
+			>
+				<Prizes />
 			</div>
 		</section>
 	);

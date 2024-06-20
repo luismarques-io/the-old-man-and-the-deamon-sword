@@ -295,6 +295,17 @@ html .slick-dots li.slick-active button:before {
 	box-shadow: 0 0 50px rgba(0, 0, 0, 0.6);
 }
 
+/* Prizes */
+
+.btn-prize {
+	opacity: 0.8;
+	transition: opacity 0.3s;
+}
+
+.btn-prize:hover {
+	opacity: 1;
+}
+
 /* Nav bar */
 
 #localesNav {
