@@ -5,10 +5,37 @@ import Image from "next/image";
 import backgroundImage from "../../../public/images/background-clean.avif";
 import backgroundMedos from "../../../public/images/background-medos.avif";
 
-import useScrollReveal from "../../lib/scrollReveal/hooks/useScrollReveal";
+import { useScrollReveal } from "../../hooks/useScrollReveal";
 
 const Background = () => {
-	useScrollReveal(150);
+	useScrollReveal({ onLoadSkipTriggerOffset: true });
+
+	useScrollReveal({
+		elementSelector: ".trigger-change-background",
+		activeClass: "trigger-change-background__active",
+		removeActiveClassOnExitViewport: true,
+		revealTriggerOffset: 300,
+		onEnterViewport: (element) => {
+			const background = document.querySelector(".main-background");
+			const backgroundMedos = document.querySelector(".main-background-medos");
+			if (!background || !backgroundMedos) {
+				return;
+			}
+
+			background.classList.add(`background__${element.id}`);
+			backgroundMedos.classList.add(`background__${element.id}`);
+		},
+		onExitViewport: (element) => {
+			const background = document.querySelector(".backgroundFadeIn");
+			const backgroundMedos = document.querySelector(".main-background-medos");
+			if (!background || !backgroundMedos) {
+				return;
+			}
+
+			background.classList.remove(`background__${element.id}`);
+			backgroundMedos.classList.remove(`background__${element.id}`);
+		}
+	});
 
 	return (
 		<>
@@ -20,8 +47,8 @@ const Background = () => {
 					fill
 					// sizes="100vw"
 					objectFit="cover"
-					className="backgroundFadeIn"
-					style={{ maxWidth: "100vw", maxHeight: "100vh", opacity: 0.6, animation: "backgroundFadeIn 3s ease-in" }}
+					className="main-background backgroundFadeIn"
+					style={{ maxWidth: "100vw", maxHeight: "100vh", animation: "backgroundFadeIn 3s ease-in" }}
 				/>
 
 				<Image
@@ -30,17 +57,10 @@ const Background = () => {
 					fill
 					// sizes="100vw"
 					objectFit="cover"
-					className="medosFadeIn"
-					style={{ maxWidth: "100vw", maxHeight: "100vh", opacity: 0.8, top: "50%", animation: "medosFadeIn 0.5s ease-in" }}
+					className="main-background-medos medosFadeIn"
+					style={{ maxWidth: "100vw", maxHeight: "100vh", animation: "medosFadeIn 0.5s ease-in" }}
 				/>
 			</div>
-			{/* <div>
-				<Controller>
-					<Scene duration={600} pin>
-						<div>Sticky Example</div>
-					</Scene>
-				</Controller>
-			</div> */}
 		</>
 	);
 };

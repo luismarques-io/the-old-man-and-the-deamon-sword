@@ -9,7 +9,7 @@ const Sponsors = () => {
 	const locale = useLocale();
 
 	return (
-		<section className="page-section pb-3 pt-4" id="sponsors">
+		<section className="page-section pb-3 pt-4 trigger-change-background" id="sponsors">
 			<div className="pt-3">
 				<Prizes />
 			</div>

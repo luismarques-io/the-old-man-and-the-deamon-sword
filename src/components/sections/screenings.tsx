@@ -23,7 +23,7 @@ const Screenings = () => {
 	const rowKeys = Object.keys(data.Screenings.table);
 
 	return (
-		<section className="page-section scrollreveal" id="screenings">
+		<section className="page-section scrollreveal trigger-change-background" id="screenings">
 			<div className="container">
 				<div className="text-center">
 					<h2 className="section-heading text-uppercase scrollreveal__frombottom">{t("title")}</h2>

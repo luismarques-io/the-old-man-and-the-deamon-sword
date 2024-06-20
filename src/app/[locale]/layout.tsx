@@ -4,9 +4,9 @@ import { aleo } from "@/fonts";
 
 // import "./agency.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./custom-agency.css";
-import "./global.css";
-import "../../lib/scrollReveal/scrollReveal.css";
+import "./styles/custom-agency.css";
+import "./styles/scrollReveal.css";
+import "./styles/global.css";
 
 export async function generateStaticParams() {
 	return i18nextConfig.i18n.locales.map((locale) => ({

@@ -383,6 +383,67 @@ html .slick-dots li.slick-active button:before {
 	font-size: 32px;
 }
 
+/* Background Scroll */
+
+.main-background {
+	transition: opacity 2s;
+	opacity: 0.6;
+}
+
+.main-background.background__synopsis {
+	opacity: 0.3;
+}
+
+.main-background.background__trailer {
+	opacity: 0.1;
+}
+
+.main-background.background__screenings {
+	opacity: 0.6;
+}
+
+.main-background.background__gallery {
+	opacity: 0.6;
+}
+
+.main-background.background__sponsors {
+	opacity: 1;
+}
+
+.main-background-medos {
+	transition: all 2s;
+	opacity: 0.8;
+	top: 50% !important;
+}
+
+.main-background-medos.background__synopsis {
+	transition: all 5s;
+	top: 0% !important;
+}
+
+.main-background-medos.background__trailer {
+	transition: all 5s;
+	top: 50% !important;
+	opacity: 0.1;
+}
+
+.main-background-medos.background__screenings {
+	transition: all 5s;
+	top: 10% !important;
+	opacity: 0.8;
+}
+
+.main-background-medos.background__gallery {
+	transition: all 5s;
+	top: 10% !important;
+	opacity: 0.8;
+}
+
+.main-background-medos.background__sponsors {
+	transition: all 20s;
+	top: 100% !important;
+}
+
 /* Animations */
 
 @keyframes backgroundFadeIn {

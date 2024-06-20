@@ -47,7 +47,7 @@ const Gallery = () => {
 	} as Settings;
 
 	return (
-		<section className="page-section scrollreveal" id="gallery">
+		<section className="page-section scrollreveal trigger-change-background" id="gallery">
 			<div className="container">
 				<div className="text-center">
 					<h2 className="section-heading text-uppercase scrollreveal__frombottom">{t("title")}</h2>

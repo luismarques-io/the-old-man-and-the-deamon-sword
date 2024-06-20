@@ -8,7 +8,7 @@ const Synopsis = () => {
 	const t = useTranslations("Synopsis");
 
 	return (
-		<section className="page-section scrollreveal mt-5" id="synopsis">
+		<section className="page-section mt-5 scrollreveal trigger-change-background" id="synopsis">
 			<div className="container">
 				<div className="text-center scrollreveal__frombottom">
 					<h2 className="section-heading text-uppercase">{t("title")}</h2>
