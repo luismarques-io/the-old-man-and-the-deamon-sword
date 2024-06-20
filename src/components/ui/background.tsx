@@ -58,7 +58,7 @@ const Background = () => {
 					// sizes="100vw"
 					objectFit="cover"
 					className="main-background-medos medosFadeIn"
-					style={{ maxWidth: "100vw", maxHeight: "100vh", animation: "medosFadeIn 0.5s ease-in" }}
+					style={{ maxWidth: "100vw", maxHeight: "100vh", animation: "medosFadeIn 2s ease-out" }}
 				/>
 			</div>
 		</>

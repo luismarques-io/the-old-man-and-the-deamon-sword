@@ -23,7 +23,7 @@ const Landing = () => {
 						height: "auto",
 						maxHeight: "100vh",
 						maxWidth: "100vw",
-						animation: "fadeIn 1s ease-in"
+						animation: "fadeIn 2s ease-in"
 					}}
 				/>
 			</div>
