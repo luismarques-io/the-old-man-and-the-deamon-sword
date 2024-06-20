@@ -12,6 +12,11 @@ export async function generateMetadata() {
 		description: t("description"),
 		openGraph: {
 			images: t("openGraph.images")
+		},
+		icons: {
+			icon: "/images/icon.png",
+			shortcut: "/images/icon.png",
+			apple: "/images/icon.png"
 		}
 	};
 }
