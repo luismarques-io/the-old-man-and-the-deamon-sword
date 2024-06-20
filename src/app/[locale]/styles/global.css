@@ -458,7 +458,7 @@ html .slick-dots li.slick-active button:before {
 @keyframes medosFadeIn {
 	from {
 		opacity: 0;
-		margin-top: 1%;
+		margin-top: 3%;
 	}
 	to {
 		opacity: 0.8;
