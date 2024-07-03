@@ -225,10 +225,11 @@ h1,
 }
 
 #screenings .table-container {
-	background-color: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.4);
+	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 37.69%, rgba(22, 27, 34, 0) 126.53%);
+	padding: 20px;
 	backdrop-filter: blur(10px);
-	border: 20px solid transparent;
-	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.4);
+	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
 #screenings .table {
 	--bs-body-bg: transparent;

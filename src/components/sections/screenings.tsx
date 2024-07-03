@@ -34,7 +34,7 @@ const Screenings = () => {
 							<Image src={`/images/tonho-with-sword.avif`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
 						</div>
 					</div>
-					<div className="col-md-6 mt-5 scrollreveal__frombottom scrollreveal__delay050">
+					<div className="col-md-6 mt-5">
 						<div className="table-container">
 							<table className="table">
 								<thead>
