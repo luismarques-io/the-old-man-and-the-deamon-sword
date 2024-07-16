@@ -9,8 +9,8 @@ const Landing = () => {
 	const locale = useLocale();
 
 	return (
-		<section className="p-0" style={{ height: "100vh", display: "flex", alignItems: "center", position: "relative", paddingBottom: "1em !important" }}>
-			<div className="container text-center" style={{ position: "relative" }}>
+		<section id="landing" className="p-0">
+			<div className="container logo-container text-center">
 				<Image
 					src={`/images/title-${locale}.avif`}
 					alt={t("image-alt-text")}
@@ -27,15 +27,7 @@ const Landing = () => {
 					}}
 				/>
 			</div>
-			<div
-				className="text-center scrollreveal"
-				style={{
-					position: "absolute",
-					bottom: 20,
-					left: 0,
-					width: "100%"
-				}}
-			>
+			<div className="prizes-container text-center scrollreveal">
 				<div className="scrollreveal__frombottom scrollreveal__delay1">
 					<Prizes />
 				</div>

@@ -298,6 +298,11 @@ html .slick-dots li.slick-active button:before {
 
 /* Prizes */
 
+.prizes {
+	display: flex;
+	justify-content: space-evenly;
+}
+
 .btn-prize {
 	opacity: 0.8;
 	transition: opacity 0.3s;
@@ -305,6 +310,63 @@ html .slick-dots li.slick-active button:before {
 
 .btn-prize:hover {
 	opacity: 1;
+}
+
+@media (max-width: 992px) {
+	.prizes {
+		display: block;
+		text-align: center;
+	}
+
+	.btn-prize {
+		display: block;
+	}
+}
+
+/* Landing */
+
+#landing {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	position: relative;
+	padding-bottom: 1em !important;
+}
+#landing .logo-container {
+	position: relative;
+}
+
+#landing .prizes-container {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	#landing {
+		display: block;
+		height: auto;
+	}
+
+	#landing .logo-container {
+		display: flex;
+		height: 100vh;
+	}
+
+	#landing .prizes-container {
+		position: relative;
+		bottom: auto;
+		left: auto;
+	}
+
+	#landing .prizes-container .btn-prize {
+		margin: 20px auto;
+	}
+
+	#landing .prizes-container .scrollreveal__delay1 {
+		transition-delay: 0s;
+	}
 }
 
 /* Nav bar */
