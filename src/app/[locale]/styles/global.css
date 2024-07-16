@@ -334,6 +334,7 @@ html .slick-dots li.slick-active button:before {
 }
 #landing .logo-container {
 	position: relative;
+	top: -50px;
 }
 
 #landing .prizes-container {
@@ -341,6 +342,11 @@ html .slick-dots li.slick-active button:before {
 	bottom: 20px;
 	left: 0;
 	width: 100%;
+}
+
+#landing .prizes-container h4 {
+	margin-top: 10px;
+	margin-bottom: 0;
 }
 
 @media (max-width: 992px) {
@@ -352,12 +358,17 @@ html .slick-dots li.slick-active button:before {
 	#landing .logo-container {
 		display: flex;
 		height: 100vh;
+		top: 0;
 	}
 
 	#landing .prizes-container {
 		position: relative;
 		bottom: auto;
 		left: auto;
+	}
+
+	#landing .prizes-container h4 {
+		margin-top: 140px;
 	}
 
 	#landing .prizes-container .btn-prize {

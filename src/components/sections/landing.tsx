@@ -30,6 +30,7 @@ const Landing = () => {
 			<div className="prizes-container text-center scrollreveal">
 				<div className="scrollreveal__frombottom scrollreveal__delay1">
 					<Prizes />
+					{t("premiere-title") ? <h4>{t("premiere-title")}</h4> : ""}
 				</div>
 			</div>
 		</section>
