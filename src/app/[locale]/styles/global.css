@@ -241,7 +241,7 @@ h1,
 
 #screenings .table-container {
 	background: rgba(0, 0, 0, 0.4);
-	background: linear-gradient(0deg, rgba(0, 0, 0, 0.8) 37.69%, rgba(22, 27, 34, 0) 126.53%);
+	background: linear-gradient(-70deg, rgba(0, 0, 0, 0.6) 37.69%, rgba(22, 27, 34, 0) 127.53%);
 	padding: 20px;
 	backdrop-filter: blur(10px);
 	box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
