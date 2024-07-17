@@ -30,8 +30,14 @@ const Screenings = () => {
 				</div>
 				<div className="row">
 					<div className="col-md-6 scrollreveal__frombottom scrollreveal__delay025">
-						<div className="main-character-container">
-							<Image src={`/images/tonho-with-sword.avif`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+						{/* <div style={{ marginTop: "-10%", marginBottom: "-10%", width: "150%" }}>
+							<Image src={`/images/gargulas.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+						</div> */}
+						{/* <div style={{ marginTop: "-17%", marginBottom: "-10%", width: "100%" }}>
+							<Image src={`/images/gargoyle 8k.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+						</div> */}
+						<div style={{ marginTop: "5%", marginBottom: "-10%", width: "116%" }}>
+							<Image src={`/images/masariy raptor 8k.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
 						</div>
 					</div>
 					<div className="col-md-6 mt-5">
@@ -49,16 +55,16 @@ const Screenings = () => {
 									{rowKeys.map((key) => (
 										<tr key={key}>
 											<th scope="row">
-												<div className="py-2">{t(`table.${key}.date`)}</div>
+												<div className="py-3">{t(`table.${key}.date`)}</div>
 											</th>
 											<td>
-												<div className="py-2">{t(`table.${key}.location`)}</div>
+												<div className="py-3">{t(`table.${key}.location`)}</div>
 											</td>
 											<td>
-												<div className="py-2">{t(`table.${key}.city`)}</div>
+												<div className="py-3">{t(`table.${key}.city`)}</div>
 											</td>
 											<td>
-												<div className="py-2">{t(`table.${key}.country`)}</div>
+												<div className="py-3">{t(`table.${key}.country`)}</div>
 											</td>
 										</tr>
 									))}

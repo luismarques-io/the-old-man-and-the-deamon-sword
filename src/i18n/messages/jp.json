@@ -114,6 +114,8 @@
 		"title": "公式ストア"
 	},
 	"Sponsors": {
-		"image-alt-text": "クレジットとスポンサー"
+		"image-alt-text": "クレジットとスポンサー",
+		"press-release-link-text": "プレスリリースをダウンロード",
+		"press-release-link-url": "https://drive.google.com/drive/folders/1T4rQldTxH0PL7eSVdV92E7RVnZZ4MUHF?usp=sharing"
 	}
 }

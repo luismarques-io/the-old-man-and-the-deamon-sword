@@ -202,6 +202,18 @@ h1,
 	font-family: var(--font-aleo);
 }
 
+.link {
+	color: #fff;
+	text-decoration: none;
+	transition: all 0.3s;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.link:hover {
+	border-bottom: 1px solid rgba(255, 255, 255, 1);
+	text-shadow: 0 0 14px rgba(255, 255, 255, 0.3);
+}
+
 /* Synopsis */
 
 #synopsis {
@@ -503,7 +515,7 @@ html .slick-dots li.slick-active button:before {
 
 .main-background-medos.background__screenings {
 	transition: all 5s;
-	top: 10% !important;
+	top: 50% !important;
 	opacity: 0.8;
 }
 

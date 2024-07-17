@@ -114,6 +114,8 @@
 		"title": "Official Store"
 	},
 	"Sponsors": {
-		"image-alt-text": "Credits and Sponsors"
+		"image-alt-text": "Credits and Sponsors",
+		"press-release-link-text": "Download Press Release",
+		"press-release-link-url": "https://drive.google.com/drive/folders/1T4rQldTxH0PL7eSVdV92E7RVnZZ4MUHF?usp=sharing"
 	}
 }

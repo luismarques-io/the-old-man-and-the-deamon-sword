@@ -21,6 +21,12 @@ const Sponsors = () => {
 					</div>
 				</div>
 			</div>
+
+			<div className="text-center pb-4 fs-5">
+				<a href={t("press-release-link-url")} className="link" target="_blank">
+					{t("press-release-link-text")}
+				</a>
+			</div>
 		</section>
 	);
 };
