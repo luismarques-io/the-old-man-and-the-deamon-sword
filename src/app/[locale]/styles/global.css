@@ -230,9 +230,12 @@ h1,
 /* Screenings */
 
 @media (min-width: 992px) {
-	#screenings .main-character-container {
+	#screenings .image-container {
 		position: relative;
-		width: 140%;
+		width: 126%;
+		margin-top: 5%;
+		margin-bottom: -10%;
+		margin-left: -3%;
 	}
 }
 

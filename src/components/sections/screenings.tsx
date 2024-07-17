@@ -29,15 +29,9 @@ const Screenings = () => {
 					<h2 className="section-heading text-uppercase scrollreveal__frombottom">{t("title")}</h2>
 				</div>
 				<div className="row">
-					<div className="col-md-6 scrollreveal__frombottom scrollreveal__delay025">
-						{/* <div style={{ marginTop: "-10%", marginBottom: "-10%", width: "150%" }}>
-							<Image src={`/images/gargulas.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
-						</div> */}
-						{/* <div style={{ marginTop: "-17%", marginBottom: "-10%", width: "100%" }}>
-							<Image src={`/images/gargoyle 8k.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
-						</div> */}
-						<div style={{ marginTop: "5%", marginBottom: "-10%", width: "116%" }}>
-							<Image src={`/images/masariy raptor 8k.png`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+					<div className="position-relative z-1 col-md-6 scrollreveal__frombottom scrollreveal__delay050">
+						<div className="image-container">
+							<Image src={`/images/masariy-raptor.avif`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
 						</div>
 					</div>
 					<div className="col-md-6 mt-5">
