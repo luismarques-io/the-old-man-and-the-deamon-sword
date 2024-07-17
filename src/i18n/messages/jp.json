@@ -1,18 +1,18 @@
 {
 	"Metadata": {
-		"baseUrl": "http://the-old-man-and-the-deamon-sword.fabiopowers.com/",
+		"baseUrl": "https://ovelhoeaespada.com/jp/",
 		"title": "老人と悪魔の剣",
-		"description": "遠くの山村に、悪魔の剣を持った僧がやって来ます。やがて、神秘的な武器は町の酔っ払いアントニオ・ダ・ルスの手に渡ります。今、酔っ払いは迫り来る悪と戦うために学ばなければなりません。",
+		"description": "遠くの山村に、悪魔の剣を持った僧がやって来ます。やがて、町の酔っ払いアントニオ・ダ・ルスはその神秘的な武器が手に入ります。今、酔っ払いは迫り来る悪と戦うために学ばなければなりません。",
 		"openGraph": {
 			"images": "/images/thumbnail-jp.jpg"
 		}
 	},
 	"Social": {
-		"instagramUrl": "https://instagram.com/ofilmedovelho",
-		"facebookUrl": "https://facebook.com/ofilmedovelho",
-		"xUrl": "https://x.com/ofilmedovelho",
-		"youtubeUrl": "https://youtube.com/ofilmedovelho",
-		"threadsUrl": "https://threads.com/ofilmedovelho"
+		"instagramUrl": "https://www.instagram.com/ovelhoeaespada/",
+		"facebookUrl": "https://www.facebook.com/ovelhoeaespada",
+		"xUrl": "https://x.com/Fabio_Powers/",
+		"youtubeUrl": "https://www.youtube.com/c/FabioPowers",
+		"threadsUrl": "https://www.threads.net/@fabio_powers"
 	},
 	"Landing": {
 		"image-alt-text": "老人と悪魔の剣",
@@ -21,12 +21,12 @@
 	"Synopsis": {
 		"title": "あらすじ",
 		"image-alt-text": "剣を持つトンホ",
-		"text": "遠くの山村に、悪魔の剣を持った僧がやって来ます。やがて、神秘的な武器は町の酔っ払いアントニオ・ダ・ルスの手に渡ります。今、酔っ払いは迫り来る悪と戦うために学ばなければなりません。",
-		"link-imdb": "https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk"
+		"text": "遠くの山村に、悪魔の剣を持った僧がやって来ます。やがて、町の酔っ払いアントニオ・ダ・ルスはその神秘的な武器が手に入ります。今、酔っ払いは迫り来る悪と戦うために学ばなければなりません。",
+		"link-imdb": "https://www.imdb.com/title/tt17677998/"
 	},
 	"Trailer": {
 		"title": "公式トレーラー",
-		"video-id": "OGohWTfZfaU"
+		"video-id": "4nrXU2yF82I"
 	},
 	"Screenings": {
 		"title": "上映",
@@ -39,34 +39,28 @@
 		},
 		"table": {
 			"0": {
-				"date": "2022-01-01",
-				"location": "シネマシティ",
-				"city": "ブカレスト",
-				"country": "ルーマニア"
-			},
-			"1": {
-				"date": "2022-01-02",
-				"location": "シネプレックス・オデオン",
-				"city": "トロント",
+				"date": "2024/07/21",
+				"location": "Fantasia-fest",
+				"city": "モントリオール",
 				"country": "カナダ"
 			},
+			"1": {
+				"date": "2024/08/03",
+				"location": "Lit Scares-fest",
+				"city": "ハロゲート",
+				"country": "イギリス"
+			},
 			"2": {
-				"date": "2022-01-03",
-				"location": "AMCエンパイア25",
+				"date": "9月 - 未定",
+				"location": "MOTELX",
 				"city": "ニューヨーク",
 				"country": "アメリカ"
 			},
 			"3": {
-				"date": "2022-01-04",
-				"location": "シネワールド",
-				"city": "ロンドン",
-				"country": "イギリス"
-			},
-			"4": {
-				"date": "2022-01-05",
-				"location": "PVRシネマ",
-				"city": "ムンバイ",
-				"country": "インド"
+				"date": "9月 - 未定",
+				"location": "CIM SUECA",
+				"city": "バレンシア",
+				"country": "スペイン"
 			}
 		}
 	},

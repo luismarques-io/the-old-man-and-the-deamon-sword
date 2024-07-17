@@ -1,28 +1,28 @@
 {
 	"Metadata": {
-		"baseUrl": "http://the-old-man-and-the-deamon-sword.fabiopowers.com/",
+		"baseUrl": "https://ovelhoeaespada.com/pt/",
 		"title": "O Velho e a Espada",
-		"description": "Numa remota aldeia montanhosa, chega um monge empunhando uma espada demoníaca. Em pouco tempo, a arma mística acaba nas mãos do bêbado da cidade, António da Luz. Agora, o bêbado terá que aprender a combater um mal que se aproxima juntos.",
+		"description": "Das assombradas florestas da Beira Baixa nasce uma energia maléfica - a única esperança da humanidade é um reformado da construção civil, uma garrafa de vinho, uma Zundapp 50 e uma espada possuída pelo espírito de um estranho demónio.",
 		"openGraph": {
 			"images": "/images/thumbnail-pt.jpg"
 		}
 	},
 	"Social": {
-		"instagramUrl": "https://instagram.com/ofilmedovelho",
-		"facebookUrl": "https://facebook.com/ofilmedovelho",
-		"xUrl": "https://x.com/ofilmedovelho",
-		"youtubeUrl": "https://youtube.com/ofilmedovelho",
-		"threadsUrl": "https://threads.com/ofilmedovelho"
+		"instagramUrl": "https://www.instagram.com/ovelhoeaespada/",
+		"facebookUrl": "https://www.facebook.com/ovelhoeaespada",
+		"xUrl": "https://x.com/Fabio_Powers/",
+		"youtubeUrl": "https://www.youtube.com/c/FabioPowers",
+		"threadsUrl": "https://www.threads.net/@fabio_powers"
 	},
 	"Landing": {
 		"image-alt-text": "O Velho e a Espada",
-		"premiere-title": "Official world premiere at Fantasia"
+		"premiere-title": "Estreia mundial oficial no Fantasia"
 	},
 	"Synopsis": {
 		"title": "Sinopse",
 		"image-alt-text": "Tonho com a espada",
-		"text": "Numa remota aldeia montanhosa, chega um monge empunhando uma espada demoníaca. Em pouco tempo, a arma mística acaba nas mãos do bêbado da cidade, António da Luz. Agora, o bêbado terá que aprender a combater um mal que se aproxima juntos.",
-		"link-imdb": "https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk"
+		"text": "Das assombradas florestas da Beira Baixa nasce uma energia maléfica - a única esperança da humanidade é um reformado da construção civil, uma garrafa de vinho, uma Zundapp 50 e uma espada possuída pelo espírito de um estranho demónio.",
+		"link-imdb": "https://www.imdb.com/title/tt17677998/"
 	},
 	"Trailer": {
 		"title": "Trailer Oficial",
@@ -39,34 +39,28 @@
 		},
 		"table": {
 			"0": {
-				"date": "2022-01-01",
-				"location": "Cinema City",
-				"city": "Bucareste",
-				"country": "Romênia"
-			},
-			"1": {
-				"date": "2022-01-02",
-				"location": "Cineplex Odeon",
-				"city": "Toronto",
+				"date": "21/07/2024",
+				"location": "Fantasia-fest",
+				"city": "Montreal",
 				"country": "Canadá"
 			},
-			"2": {
-				"date": "2022-01-03",
-				"location": "AMC Empire 25",
-				"city": "Nova Iorque",
-				"country": "EUA"
-			},
-			"3": {
-				"date": "2022-01-04",
-				"location": "Cineworld",
-				"city": "Londres",
+			"1": {
+				"date": "03/08/2024",
+				"location": "Lit Scares-fest",
+				"city": "Harrogate",
 				"country": "Reino Unido"
 			},
-			"4": {
-				"date": "2022-01-05",
-				"location": "PVR Cinemas",
-				"city": "Mumbai",
-				"country": "Índia"
+			"2": {
+				"date": "Set. (A anunciar)",
+				"location": "MOTELX",
+				"city": "Lisboa",
+				"country": "Portugal"
+			},
+			"3": {
+				"date": "Set. (A anunciar)",
+				"location": "CIM SUECA",
+				"city": "Sueca",
+				"country": "Espanha"
 			}
 		}
 	},

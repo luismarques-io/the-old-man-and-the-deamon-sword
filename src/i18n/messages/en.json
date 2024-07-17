@@ -1,32 +1,32 @@
 {
 	"Metadata": {
-		"baseUrl": "http://the-old-man-and-the-deamon-sword.fabiopowers.com/",
-		"title": "The Old Man and the Daemon Sword",
-		"description": "In the remote mountain village a monk arrives wielding a demonic sword. Before long, the mystical weapon ends up in the hands of the town drunk António da Luz. Now, the drunkard will have to learn to fight an encroaching evil together.",
+		"baseUrl": "https://ovelhoeaespada.com/en/",
+		"title": "The Old Man and the Demon Sword",
+		"description": "From the haunted forests of a lost Portuguese village, an evil energy is born - Humanity's only hope is a retired construction worker, a bottle of wine, a Zündapp 50cc motorcycle and a sword possessed by a strange demon.",
 		"openGraph": {
 			"images": "/images/thumbnail-en.jpg"
 		}
 	},
 	"Social": {
-		"instagramUrl": "https://instagram.com/ofilmedovelho",
-		"facebookUrl": "https://facebook.com/ofilmedovelho",
-		"xUrl": "https://x.com/ofilmedovelho",
-		"youtubeUrl": "https://youtube.com/ofilmedovelho",
-		"threadsUrl": "https://threads.com/ofilmedovelho"
+		"instagramUrl": "https://www.instagram.com/ovelhoeaespada/",
+		"facebookUrl": "https://www.facebook.com/ovelhoeaespada",
+		"xUrl": "https://x.com/Fabio_Powers/",
+		"youtubeUrl": "https://www.youtube.com/c/FabioPowers",
+		"threadsUrl": "https://www.threads.net/@fabio_powers"
 	},
 	"Landing": {
-		"image-alt-text": "The Old Man and the Daemon Sword",
+		"image-alt-text": "The Old Man and the Demon Sword",
 		"premiere-title": "Official world premiere at Fantasia"
 	},
 	"Synopsis": {
 		"title": "Synopsis",
 		"image-alt-text": "Tonho with sword",
-		"text": "In the remote mountain village a monk arrives wielding a demonic sword. Before long, the mystical weapon ends up in the hands of the town drunk António da Luz. Now, the drunkard will have to learn to fight an encroaching evil together.",
-		"link-imdb": "https://www.imdb.com/title/tt17677998/?ref_=ext_shr_lnk"
+		"text": "From the haunted forests of a lost Portuguese village, an evil energy is born - Humanity's only hope is a retired construction worker, a bottle of wine, a Zündapp 50cc motorcycle and a sword possessed by a strange demon.",
+		"link-imdb": "https://www.imdb.com/title/tt17677998/"
 	},
 	"Trailer": {
 		"title": "Official Trailer",
-		"video-id": "OGohWTfZfaU"
+		"video-id": "Cj31EgcwXrg"
 	},
 	"Screenings": {
 		"title": "Screenings",
@@ -39,34 +39,28 @@
 		},
 		"table": {
 			"0": {
-				"date": "2022-01-01",
-				"location": "Cinema City",
-				"city": "Bucharest",
-				"country": "Romania"
-			},
-			"1": {
-				"date": "2022-01-02",
-				"location": "Cineplex Odeon",
-				"city": "Toronto",
+				"date": "21/07/2024",
+				"location": "Fantasia-fest",
+				"city": "Montreal",
 				"country": "Canada"
 			},
+			"1": {
+				"date": "03/08/2024",
+				"location": "Lit Scares-fest",
+				"city": "Harrogate",
+				"country": "United Kingdom"
+			},
 			"2": {
-				"date": "2022-01-03",
-				"location": "AMC Empire 25",
-				"city": "New York",
-				"country": "USA"
+				"date": "September (TBA)",
+				"location": "MOTELX",
+				"city": "Lisbon",
+				"country": "Portugal"
 			},
 			"3": {
-				"date": "2022-01-04",
-				"location": "Cineworld",
-				"city": "London",
-				"country": "UK"
-			},
-			"4": {
-				"date": "2022-01-05",
-				"location": "PVR Cinemas",
-				"city": "Mumbai",
-				"country": "India"
+				"date": "September (TBA)",
+				"location": "CIM SUECA",
+				"city": "Sueca",
+				"country": "Spain"
 			}
 		}
 	},
