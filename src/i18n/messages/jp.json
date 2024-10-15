@@ -15,8 +15,7 @@
 		"threadsUrl": "https://www.threads.net/@fabio_powers"
 	},
 	"Landing": {
-		"image-alt-text": "老人と悪魔の剣",
-		"premiere-title": "Fantasia で公式ワールドプレミア"
+		"image-alt-text": "老人と悪魔の剣"
 	},
 	"Synopsis": {
 		"title": "あらすじ",
@@ -39,28 +38,34 @@
 		},
 		"table": {
 			"0": {
-				"date": "2024/07/21",
-				"location": "Fantasia-fest",
-				"city": "モントリオール",
-				"country": "カナダ"
+				"date": "2024年11月16日 午後9時30分",
+				"location": "シネ・テアトロ・デ・アルメイリム",
+				"city": "アルメイリム",
+				"country": "ポルトガル"
 			},
 			"1": {
-				"date": "2024/08/03",
-				"location": "Lit Scares-fest",
-				"city": "ハロゲート",
-				"country": "イギリス"
+				"date": "2024年12月7日 午後10時00分",
+				"location": "シネマ・パッソス・マヌエル",
+				"city": "ポルト",
+				"country": "ポルトガル"
 			},
 			"2": {
-				"date": "9月 - 未定",
-				"location": "MOTELX",
-				"city": "ニューヨーク",
-				"country": "アメリカ"
+				"date": "2024年12月3日",
+				"location": "アウグリ映画祭",
+				"city": "トリノ",
+				"country": "イタリア"
 			},
 			"3": {
-				"date": "9月 - 未定",
-				"location": "CIM SUECA",
-				"city": "バレンシア",
-				"country": "スペイン"
+				"date": "2024年12月10日から15日",
+				"location": "フェノメナ祭",
+				"city": "サンパウロ",
+				"country": "ブラジル"
+			},
+			"4": {
+				"date": "2025年4月4日から6日",
+				"location": "ミューズ映画賞",
+				"city": "レバディア",
+				"country": "ギリシャ"
 			}
 		}
 	},

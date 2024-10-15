@@ -15,8 +15,7 @@
 		"threadsUrl": "https://www.threads.net/@fabio_powers"
 	},
 	"Landing": {
-		"image-alt-text": "O Velho e a Espada",
-		"premiere-title": "Estreia mundial oficial no Fantasia"
+		"image-alt-text": "O Velho e a Espada"
 	},
 	"Synopsis": {
 		"title": "Sinopse",
@@ -39,28 +38,34 @@
 		},
 		"table": {
 			"0": {
-				"date": "21/07/2024",
-				"location": "Fantasia-fest",
-				"city": "Montreal",
-				"country": "Canadá"
-			},
-			"1": {
-				"date": "03/08/2024",
-				"location": "Lit Scares-fest",
-				"city": "Harrogate",
-				"country": "Reino Unido"
-			},
-			"2": {
-				"date": "Set. (A anunciar)",
-				"location": "MOTELX",
-				"city": "Lisboa",
+				"date": "16 de Novembro de 2024 às 21h30",
+				"location": "Cine-Teatro de Almeirim",
+				"city": "Almeirim",
 				"country": "Portugal"
 			},
+			"1": {
+				"date": "07 de Dezembro de 2024 às 22h00",
+				"location": "Cinema Passos Manuel",
+				"city": "Porto",
+				"country": "Portugal"
+			},
+			"2": {
+				"date": "03 de Dezembro de 2024",
+				"location": "Auguri Film Festival",
+				"city": "Turim",
+				"country": "Itália"
+			},
 			"3": {
-				"date": "Set. (A anunciar)",
-				"location": "CIM SUECA",
-				"city": "Sueca",
-				"country": "Espanha"
+				"date": "10 a 15 de Dezembro de 2024",
+				"location": "Phenomena Festival",
+				"city": "São Paulo",
+				"country": "Brasil"
+			},
+			"4": {
+				"date": "04 a 06 de Abril de 2025",
+				"location": "Muses Film Awards",
+				"city": "Levadia",
+				"country": "Grécia"
 			}
 		}
 	},

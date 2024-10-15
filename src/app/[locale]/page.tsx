@@ -1,6 +1,7 @@
 import Navbar from "@/components/navigation/NavBar";
 import Gallery from "@/components/sections/gallery";
 import Landing from "@/components/sections/landing";
+import Prizes from "@/components/sections/prizes";
 import Screenings from "@/components/sections/screenings";
 import SocialFooter from "@/components/sections/socialFooter";
 import Sponsors from "@/components/sections/sponsors";
@@ -40,6 +41,7 @@ const Page = async ({ params: { locale } }: PageProps) => {
 			<Background />
 			<Navbar />
 			<Landing />
+			<Prizes />
 			<Synopsis />
 			<Trailer />
 			<Screenings />

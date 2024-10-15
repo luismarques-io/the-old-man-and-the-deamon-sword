@@ -314,13 +314,20 @@ html .slick-dots li.slick-active button:before {
 /* Prizes */
 
 .prizes {
-	display: flex;
+	display: grid;
+	grid-template-columns: auto auto auto auto;
 	justify-content: space-evenly;
+	text-align: center;
 }
 
 .btn-prize {
+	margin: 50px 10px;
 	opacity: 0.8;
 	transition: opacity 0.3s;
+}
+.btn-prize img {
+	width: auto;
+	height: 100px;
 }
 
 .btn-prize:hover {
@@ -328,13 +335,17 @@ html .slick-dots li.slick-active button:before {
 }
 
 @media (max-width: 992px) {
-	.prizes {
-		display: block;
-		text-align: center;
+	.prizes-container .btn-prize {
+		margin: 30px auto;
 	}
 
-	.btn-prize {
-		display: block;
+	.prizes {
+		grid-template-columns: auto auto;
+	}
+}
+@media (max-width: 500px) {
+	.btn-prize img {
+		height: 70px;
 	}
 }
 
@@ -349,19 +360,7 @@ html .slick-dots li.slick-active button:before {
 }
 #landing .logo-container {
 	position: relative;
-	top: -50px;
-}
-
-#landing .prizes-container {
-	position: absolute;
-	bottom: 20px;
-	left: 0;
-	width: 100%;
-}
-
-#landing .prizes-container h4 {
-	margin-top: 10px;
-	margin-bottom: 0;
+	/* top: -50px; */
 }
 
 @media (max-width: 992px) {
@@ -374,24 +373,6 @@ html .slick-dots li.slick-active button:before {
 		display: flex;
 		height: 100vh;
 		top: 0;
-	}
-
-	#landing .prizes-container {
-		position: relative;
-		bottom: auto;
-		left: auto;
-	}
-
-	#landing .prizes-container h4 {
-		margin-top: 140px;
-	}
-
-	#landing .prizes-container .btn-prize {
-		margin: 20px auto;
-	}
-
-	#landing .prizes-container .scrollreveal__delay1 {
-		transition-delay: 0s;
 	}
 }
 
@@ -503,6 +484,11 @@ html .slick-dots li.slick-active button:before {
 	transition: all 2s;
 	opacity: 0.8;
 	top: 50% !important;
+}
+
+.main-background-medos.background__prizes {
+	transition: all 5s;
+	top: 30% !important;
 }
 
 .main-background-medos.background__synopsis {
