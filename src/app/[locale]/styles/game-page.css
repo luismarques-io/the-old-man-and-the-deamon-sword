@@ -351,6 +351,7 @@
 	text-align: center;
 }
 
+.game-section h2.center::after,
 .game-features .h3::after {
 	content: "";
 	position: absolute;

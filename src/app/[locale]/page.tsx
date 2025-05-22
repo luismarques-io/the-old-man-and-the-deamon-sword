@@ -1,5 +1,6 @@
 import Navbar from "@/components/navigation/NavBar";
 import Gallery from "@/components/sections/gallery";
+import Game from "@/components/sections/game";
 import Landing from "@/components/sections/landing";
 import Prizes from "@/components/sections/prizes";
 import Screenings from "@/components/sections/screenings";
@@ -11,6 +12,7 @@ import Trailer from "@/components/sections/trailer";
 import Background from "@/components/ui/background";
 // import Parallax from "@/components/ui/paralax";
 import { getTranslations } from "@/i18n";
+import "./styles/game-page.css";
 
 interface PageProps {
 	params: { locale: string };
@@ -45,6 +47,7 @@ const Page = async ({ params: { locale } }: PageProps) => {
 			<Synopsis />
 			<Trailer />
 			<Screenings />
+			<Game />
 			<Gallery />
 			{/* <Store /> */}
 			<SocialFooter />
