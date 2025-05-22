@@ -21,6 +21,20 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 **Note:** Both .htaccess and 404.html files are at root_level
 
+## Build
+
+```bash
+bun run build
+```
+
+## Deploy
+
+1. Copy the `out/` directory to the production project.
+
+2. Create a new git commit with the new version
+
+3. A github actions automatically deploy the app.
+
 ## Thanks
 
 Based on:
