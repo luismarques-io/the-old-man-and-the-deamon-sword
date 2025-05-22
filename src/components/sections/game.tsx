@@ -19,7 +19,7 @@ const Game = () => {
 						</h2>
 					</div>
 
-					<div className="game-section scrollreveal">
+					<div className="game-section no-hover scrollreveal mb-0">
 						<div className="screenshot-frame scrollreveal__frombottom">
 							<div className="screenshot-corner top-left"></div>
 							<div className="screenshot-corner top-right"></div>
@@ -27,7 +27,7 @@ const Game = () => {
 							<div className="screenshot-corner bottom-right"></div>
 
 							<div className="screenshot-glow"></div>
-							<img src="/images/game/O Velho e a Espada - snapshot 1.png" alt="Game screenshot" className="game-hero-image img-fluid" />
+							<img src="/images/game/O Velho e a Espada - snapshot 1.png" alt="Game screenshot" className="game-hero-image no-hover img-fluid" />
 
 							<div className="screenshot-overlay"></div>
 							<div className="screenshot-effect-wrapper">

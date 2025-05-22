@@ -637,8 +637,12 @@ html .slick-dots li.slick-active button:before {
 	transition: all 0.5s ease;
 }
 
-.screenshot-frame:hover {
+/* .screenshot-frame:hover {
 	transform: scale(1.02) translateY(-5px);
+} */
+
+.screenshot-frame:hover {
+	transform: scale(1) translateY(0);
 }
 
 .screenshot-frame::before {
@@ -714,6 +718,7 @@ html .slick-dots li.slick-active button:before {
 	mix-blend-mode: overlay;
 	pointer-events: none;
 	z-index: 2;
+	border-radius: 8px;
 }
 
 .screenshot-effect-wrapper {

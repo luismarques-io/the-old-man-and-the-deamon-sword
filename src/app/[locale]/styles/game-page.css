@@ -16,6 +16,10 @@
 	box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
 }
 
+.game-hero-image.no-hover:hover {
+	transform: translateY(0);
+}
+
 .game-title {
 	font-weight: 800;
 	letter-spacing: -1px;
@@ -175,6 +179,12 @@
 
 .game-section:hover {
 	transform: translateY(-7px);
+	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4);
+	border-color: rgba(255, 255, 255, 0.15);
+}
+
+.game-section.no-hover:hover {
+	transform: translateY(0);
 	box-shadow: 0 20px 35px rgba(0, 0, 0, 0.4);
 	border-color: rgba(255, 255, 255, 0.15);
 }
