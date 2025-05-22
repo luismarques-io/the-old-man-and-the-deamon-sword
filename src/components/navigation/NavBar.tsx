@@ -7,22 +7,34 @@ import { usePathname } from "next/navigation";
 export default function Navbar() {
 	const pathname = usePathname();
 
+	// Function to get the path without locale prefix
+	const getPathWithoutLocale = () => {
+		const segments = pathname.split("/");
+		// If there are enough segments and the second segment is not empty
+		if (segments.length > 2 && segments[2]) {
+			return "/" + segments.slice(2).join("/");
+		}
+		return ""; // Return empty string for home page
+	};
+
+	const currentPath = getPathWithoutLocale();
+
 	return (
 		<nav className="navbar navbar-expand-lg fixed-top" id="localesNav">
 			<div className="container">
 				<ul className="navbar-nav text-uppercase ms-auto py-lg-0 " style={{ flexDirection: "row" }}>
 					<li className="nav-item">
-						<Link href="/en" className={`nav-link ${pathname.includes("/en/") ? "active" : ""}`}>
+						<Link href={`/en${currentPath}`} className={`nav-link ${pathname.includes("/en/") ? "active" : ""}`}>
 							EN
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link href="/pt" className={`nav-link ${pathname.includes("/pt/") ? "active" : ""}`}>
+						<Link href={`/pt${currentPath}`} className={`nav-link ${pathname.includes("/pt/") ? "active" : ""}`}>
 							PT
 						</Link>
 					</li>
 					<li className="nav-item">
-						<Link href="/jp" className={`nav-link ${pathname.includes("/jp/") ? "active" : ""}`}>
+						<Link href={`/jp${currentPath}`} className={`nav-link ${pathname.includes("/jp/") ? "active" : ""}`}>
 							JP
 						</Link>
 					</li>
