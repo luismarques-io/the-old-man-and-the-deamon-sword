@@ -105,24 +105,16 @@ const GamePage = async ({ params: { locale } }: PageProps) => {
 											{t("game-features.action")}
 										</span>
 										<span className="feature-badge">
-											<i className="bi bi-puzzle"></i>
-											{t("game-features.puzzles")}
-										</span>
-										<span className="feature-badge">
-											<i className="bi bi-book"></i>
-											{t("game-features.story")}
-										</span>
-										<span className="feature-badge">
-											<i className="bi bi-palette"></i>
-											{t("game-features.graphics")}
-										</span>
-										<span className="feature-badge">
 											<i className="bi bi-music-note"></i>
 											{t("game-features.soundtrack")}
 										</span>
 										<span className="feature-badge">
 											<i className="bi bi-phone"></i>
 											{t("game-features.mobile")}
+										</span>
+										<span className="feature-badge">
+											<i className="bi bi-palette"></i>
+											{t("game-features.graphics")}
 										</span>
 									</div>
 								</div>
