@@ -17,6 +17,39 @@
 	"Landing": {
 		"image-alt-text": "The Old Man and the Demon Sword"
 	},
+	"Game": {
+		"title": "The Old Man and the Demon Sword",
+		"subtitle": "THE GAME",
+		"return-to-movie": "Return to The Movie",
+		"coming-soon": "Coming Soon",
+		"platforms": "Coming soon for Android and iOS",
+		"game-features": {
+			"title": "Game Features",
+			"description": "Experience an action-packed adventure with unique combat mechanics, challenging puzzles, and a captivating story",
+			"action": "Action Combat",
+			"puzzles": "Challenging Puzzles",
+			"story": "Story-Driven",
+			"graphics": "Pixel Art Graphics",
+			"soundtrack": "Original Soundtrack",
+			"mobile": "Mobile Experience"
+		},
+		"development": {
+			"title": "Development Team",
+			"game-dev": {
+				"title": "Game Development",
+				"description": "Developed by \"Ninestudios Games\", a young independent studio based in Portugal, dedicated to creating engaging, challenging games centered on player experience. Driven by passion and creativity, they aim to develop unique titles that combine fun with depth."
+			},
+			"art": {
+				"title": "Art Direction",
+				"description": "Art direction by \"Spaniard Animation Studios\", an independent studio founded by Jules Spaniard, a Portuguese multidisciplinary artist from Almeirim. With a solid career in 2D/3D animation, illustration, and visual effects, Jules created the studio as a platform for developing original projects and commercial collaborations."
+			},
+			"music": {
+				"title": "Music",
+				"description": "Music by Zé Consciência, a Portuguese YouTuber and musician, creator of the channel \"Crónicas Videojogos\", where he mixes humor, nostalgia, and critique about video games. He's also a music teacher and collaborates on musical projects."
+			}
+		},
+		"developed-by": "Developed by"
+	},
 	"Synopsis": {
 		"title": "Synopsis",
 		"image-alt-text": "Tonho with sword",

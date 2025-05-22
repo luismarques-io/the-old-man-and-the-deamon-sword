@@ -17,6 +17,39 @@
 	"Landing": {
 		"image-alt-text": "O Velho e a Espada"
 	},
+	"Game": {
+		"title": "O Velho e a Espada",
+		"subtitle": "O JOGO",
+		"return-to-movie": "Voltar ao Filme",
+		"coming-soon": "Em Breve",
+		"platforms": "Brevemente disponível para Android e iOS",
+		"game-features": {
+			"title": "Características do Jogo",
+			"description": "Experimente uma aventura cheia de ação com mecânicas de combate únicas, puzzles desafiantes e uma história cativante",
+			"action": "Combate de Ação",
+			"puzzles": "Puzzles Desafiantes",
+			"story": "Focado na História",
+			"graphics": "Gráficos Pixel Art",
+			"soundtrack": "Banda Sonora Original",
+			"mobile": "Experiência Mobile"
+		},
+		"development": {
+			"title": "Equipa de Desenvolvimento",
+			"game-dev": {
+				"title": "Desenvolvimento do Jogo",
+				"description": "Em desenvolvimento pela \"Ninestudios Games\", um estúdio independente jovem, sediado em Portugal, que se dedica à criação de jogos envolventes, desafiantes e centrados na experiência do jogador. Movidos pela paixão e criatividade, procuram desenvolver títulos únicos que combinem diversão com profundidade."
+			},
+			"art": {
+				"title": "Direção de Arte",
+				"description": "A direcção de arte é do \"Spaniard Animation Studios\", um estúdio independente fundado por Jules Spaniard, um artista multidisciplinar português natural de Almeirim. Com uma carreira sólida nas áreas de animação 2D/3D, ilustração e efeitos visuais, Jules criou o estúdio como plataforma para desenvolver projetos autorais e colaborações comerciais."
+			},
+			"music": {
+				"title": "Música",
+				"description": "A música está ao encargo do Zé Consciência, um YouTuber e músico português, criador do canal \"Crónicas Videojogos\", onde mistura humor, nostalgia e crítica sobre videojogos. Também é professor de música e colabora em projetos musicais."
+			}
+		},
+		"developed-by": "Desenvolvido por"
+	},
 	"Synopsis": {
 		"title": "Sinopse",
 		"image-alt-text": "Tonho com a espada",
