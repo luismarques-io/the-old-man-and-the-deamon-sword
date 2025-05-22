@@ -61,6 +61,12 @@ const GamePage = async ({ params: { locale } }: PageProps) => {
 									<span className="coming-soon-badge me-2">{t("coming-soon")}</span>
 									{t("platforms")}
 								</div>
+								<div className="mt-5 mb-1">
+									<a className="btn btn-xl btn-primary game-btn primary" href="https://youtu.be/Ks5prhwNV3s" target="_blank" rel="noopener noreferrer">
+										<i className="bi bi-play-circle me-2"></i>
+										{t("watch-teaser")}
+									</a>
+								</div>
 							</div>
 
 							<div className="game-section">
