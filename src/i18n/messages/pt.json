@@ -27,10 +27,8 @@
 		"platforms": "para Android e iOS",
 		"game-features": {
 			"title": "Características do Jogo",
-			"description": "Experimente uma aventura cheia de ação com mecânicas de combate únicas, puzzles desafiantes e uma história cativante",
+			"description": "Experimente uma aventura cheia de ação com mecânicas de combate únicas e uma história cativante",
 			"action": "Combate de Ação",
-			"puzzles": "Puzzles Desafiantes",
-			"story": "Focado na História",
 			"graphics": "Gráficos Pixel Art",
 			"soundtrack": "Banda Sonora Original",
 			"mobile": "Experiência Mobile"
