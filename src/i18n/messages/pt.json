@@ -63,6 +63,13 @@
 	},
 	"Screenings": {
 		"title": "Exibições",
+		"cinema-release": {
+			"title": "Nos Cinemas",
+			"date": "23 de Outubro, 2025",
+			"distributor": "Distribuído por",
+			"distributor-logo-alt": "Cinetoscópio - Distribuidor Cinematográfico"
+		},
+		"festivals-title": "Exibições em Festivais",
 		"image-alt-text": "Masariy Raptor",
 		"table-head": {
 			"date": "Data",

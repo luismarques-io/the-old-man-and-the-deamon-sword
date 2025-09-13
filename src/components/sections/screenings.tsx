@@ -28,6 +28,46 @@ const Screenings = () => {
 				<div className="text-center">
 					<h2 className="section-heading text-uppercase scrollreveal__frombottom">{t("title")}</h2>
 				</div>
+
+				{/* Cinema Release Section */}
+				<div className="row mb-5">
+					<div className="col-12">
+						<div className="cinema-release-highlight p-4 p-md-5 rounded shadow-lg">
+							<div className="row align-items-center position-relative">
+								<div className="col-md-7 text-center text-md-start">
+									<div className="scrollreveal__frombottom">
+										<h3 className="cinema-release-title section-heading text-uppercase mb-3">{t("cinema-release.title")}</h3>
+										<div className="cinema-date-container scrollreveal__frombottom scrollreveal__delay025">
+											<p className="cinema-release-date lead mb-3">{t("cinema-release.date")}</p>
+											<div className="cinema-release-underline cinema-release-underline-left d-none d-md-block" />
+											<div className="cinema-release-underline d-md-none" />
+										</div>
+									</div>
+								</div>
+								<div className="col-md-5">
+									<div className="text-center scrollreveal__frombottom scrollreveal__delay050">
+										<p className="cinema-distributor-text mb-3 fw-semibold">{t("cinema-release.distributor")}</p>
+										<div className="distributor-logo-container p-3 rounded">
+											<Image
+												src="/images/logos/cinema-distributor/cinetoscopio-logo-branco.png"
+												alt={t("cinema-release.distributor-logo-alt")}
+												width={300}
+												height={75}
+												className="distributor-logo"
+											/>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				{/* Festival Screenings Section */}
+				<div className="text-center mb-4">
+					<h3 className="section-heading text-uppercase scrollreveal__frombottom">{t("festivals-title")}</h3>
+				</div>
+
 				<div className="row">
 					<div className="position-relative z-1 col-md-6 scrollreveal__frombottom scrollreveal__delay050">
 						<div className="image-container">

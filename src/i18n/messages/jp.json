@@ -63,6 +63,13 @@
 	},
 	"Screenings": {
 		"title": "上映",
+		"cinema-release": {
+			"title": "劇場公開",
+			"date": "2025年10月23日",
+			"distributor": "配給",
+			"distributor-logo-alt": "シネトスコピオ - 映画配給会社"
+		},
+		"festivals-title": "映画祭上映",
 		"image-alt-text": "マサリヤ ラプター",
 		"table-head": {
 			"date": "日付",

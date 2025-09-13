@@ -63,6 +63,13 @@
 	},
 	"Screenings": {
 		"title": "Screenings",
+		"cinema-release": {
+			"title": "In Cinemas",
+			"date": "October 23, 2025",
+			"distributor": "Distributed by",
+			"distributor-logo-alt": "Cinetoscópio - Cinema Distributor"
+		},
+		"festivals-title": "Festival Screenings",
 		"image-alt-text": "Masariy Raptor",
 		"table-head": {
 			"date": "Date",
