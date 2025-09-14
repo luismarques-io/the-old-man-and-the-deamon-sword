@@ -278,23 +278,6 @@ h1,
 	margin: 0;
 }
 
-.cinema-release-underline {
-	width: 120px;
-	height: 1px;
-	background: linear-gradient(90deg, rgba(255, 255, 255, 0.6) 0%, transparent 100%);
-	margin: 0 auto;
-}
-
-.cinema-release-underline-left {
-	margin-left: 0;
-}
-
-@media (max-width: 767px) {
-	.cinema-release-underline-left {
-		margin: 0 auto;
-	}
-}
-
 .cinema-distributor-text {
 	font-size: 1.1rem;
 	opacity: 0.8;
@@ -419,6 +402,22 @@ html .slick-dots li.slick-active button:before {
 	/* top: -50px; */
 }
 
+.landing-cinema-release {
+	max-width: 600px;
+	position: absolute;
+	bottom: 15px;
+	left: 0;
+	right: 0;
+	animation: fadeIn 3s ease-in;
+}
+
+.landing-cinema-release .cinema-release-highlight {
+	/* backdrop-filter: blur(15px); */
+	backdrop-filter: none;
+	background: transparent;
+	border: none;
+}
+
 @media (max-width: 992px) {
 	#landing {
 		display: block;
@@ -429,6 +428,18 @@ html .slick-dots li.slick-active button:before {
 		display: flex;
 		height: 100vh;
 		top: 0;
+	}
+
+	.landing-cinema-release {
+		max-width: 90%;
+		margin-top: 1rem !important;
+	}
+}
+
+@media (max-width: 768px) {
+	.landing-cinema-release .row {
+		flex-direction: column !important;
+		text-align: center !important;
 	}
 }
 

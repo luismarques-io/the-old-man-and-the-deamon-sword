@@ -34,13 +34,11 @@ const Screenings = () => {
 					<div className="col-12">
 						<div className="cinema-release-highlight p-4 p-md-5 rounded shadow-lg">
 							<div className="row align-items-center position-relative">
-								<div className="col-md-7 text-center text-md-start">
+								<div className="col-md-7 text-center ">
 									<div className="scrollreveal__frombottom">
 										<h3 className="cinema-release-title section-heading text-uppercase mb-3">{t("cinema-release.title")}</h3>
 										<div className="cinema-date-container scrollreveal__frombottom scrollreveal__delay025">
 											<p className="cinema-release-date lead mb-3">{t("cinema-release.date")}</p>
-											<div className="cinema-release-underline cinema-release-underline-left d-none d-md-block" />
-											<div className="cinema-release-underline d-md-none" />
 										</div>
 									</div>
 								</div>
