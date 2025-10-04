@@ -69,38 +69,44 @@
 			"distributor": "Distribuído por",
 			"distributor-logo-alt": "Cinetoscópio - Distribuidor Cinematográfico"
 		},
-		"festivals-title": "Exibições em Festivais",
+		"festivals-title": "Sessões Especiais com Q&A",
 		"image-alt-text": "Masariy Raptor",
 		"table-head": {
 			"date": "Data",
 			"location": "Local",
-			"city": "Cidade",
-			"country": "País"
+			"city": "",
+			"country": ""
 		},
 		"table": {
 			"0": {
-				"date": "10 Maio",
-				"location": "B Beside the seaside",
-				"city": "Southport",
-				"country": "UK"
+				"date": "24 de outubro (sexta) 21h30",
+				"location": "Ovar",
+				"city": "",
+				"country": ""
 			},
 			"1": {
-				"date": "4 Maio a 1 Junho",
-				"location": "Tokyo Lift-Off Film Festival",
-				"city": "Shibuya, Tokyon",
-				"country": "Japan"
+				"date": "25 de outubro (sábado) 18h30",
+				"location": "Casa do Cinema em Coimbra",
+				"city": "",
+				"country": ""
 			},
 			"2": {
-				"date": "13 - 23 Junho",
-				"location": "ETREUM Horror Films Fest",
-				"city": "Bogotá",
-				"country": "Colombia"
+				"date": "26 de outubro (domingo) 16h",
+				"location": "Mira Maia",
+				"city": "",
+				"country": ""
 			},
 			"3": {
-				"date": "19 a 22 Junho",
-				"location": "Fantboi",
-				"city": "Sant Boi de Llobregat, Barcelona",
-				"country": "Spain"
+				"date": "27 de outubro (segunda) 18h30",
+				"location": "FNAC Chiado",
+				"city": "",
+				"country": ""
+			},
+			"4": {
+				"date": "31 Outubro (sexta) 21h30",
+				"location": "Cinema Fernando Lopes",
+				"city": "",
+				"country": ""
 			}
 		}
 	},

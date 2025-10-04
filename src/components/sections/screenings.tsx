@@ -21,6 +21,8 @@ const Screenings = () => {
 	}
 
 	const rowKeys = Object.keys(data.Screenings.table);
+	const showCity = Boolean(data?.Screenings?.["table-head"]?.city);
+	const showCountry = Boolean(data?.Screenings?.["table-head"]?.country);
 
 	return (
 		<section className="page-section scrollreveal trigger-change-background" id="screenings">
@@ -79,8 +81,8 @@ const Screenings = () => {
 									<tr>
 										<th scope="col">{t("table-head.date")}</th>
 										<th scope="col">{t("table-head.location")}</th>
-										<th scope="col">{t("table-head.city")}</th>
-										<th scope="col">{t("table-head.country")}</th>
+										{showCity && <th scope="col">{t("table-head.city")}</th>}
+										{showCountry && <th scope="col">{t("table-head.country")}</th>}
 									</tr>
 								</thead>
 								<tbody>
@@ -92,12 +94,16 @@ const Screenings = () => {
 											<td>
 												<div className="py-3">{t(`table.${key}.location`)}</div>
 											</td>
-											<td>
-												<div className="py-3">{t(`table.${key}.city`)}</div>
-											</td>
-											<td>
-												<div className="py-3">{t(`table.${key}.country`)}</div>
-											</td>
+											{showCity && (
+												<td>
+													<div className="py-3">{t(`table.${key}.city`)}</div>
+												</td>
+											)}
+											{showCountry && (
+												<td>
+													<div className="py-3">{t(`table.${key}.country`)}</div>
+												</td>
+											)}
 										</tr>
 									))}
 								</tbody>

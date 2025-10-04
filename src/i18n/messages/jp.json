@@ -69,38 +69,44 @@
 			"distributor": "配給",
 			"distributor-logo-alt": "シネトスコピオ - 映画配給会社"
 		},
-		"festivals-title": "映画祭上映",
+		"festivals-title": "特別上映＆Q&A",
 		"image-alt-text": "マサリヤ ラプター",
 		"table-head": {
 			"date": "日付",
 			"location": "場所",
-			"city": "市",
-			"country": "国"
+			"city": "",
+			"country": ""
 		},
 		"table": {
 			"0": {
-				"date": "5月10日",
-				"location": "B Beside the seaside",
-				"city": "サウスポート",
-				"country": "イギリス"
+				"date": "10月24日（金）21:30",
+				"location": "オヴァール（Ovar）",
+				"city": "",
+				"country": ""
 			},
 			"1": {
-				"date": "5月4日～6月1日",
-				"location": "東京リフトオフ映画祭",
-				"city": "渋谷、東京",
-				"country": "日本"
+				"date": "10月25日（土）18:30",
+				"location": "コインブラ・シネマハウス",
+				"city": "",
+				"country": ""
 			},
 			"2": {
-				"date": "6月13日～23日",
-				"location": "ETREUMホラー映画祭",
-				"city": "ボゴタ",
-				"country": "コロンビア"
+				"date": "10月26日（日）16:00",
+				"location": "ミラ・マイア",
+				"city": "",
+				"country": ""
 			},
 			"3": {
-				"date": "6月19日～22日",
-				"location": "ファントボイ",
-				"city": "サント・ボイ・デ・リョブレガート、バルセロナ",
-				"country": "スペイン"
+				"date": "10月27日（月）18:30",
+				"location": "FNACシアード",
+				"city": "",
+				"country": ""
+			},
+			"4": {
+				"date": "10月31日（金）21:30",
+				"location": "シネマ・フェルナンド・ロペス",
+				"city": "",
+				"country": ""
 			}
 		}
 	},
