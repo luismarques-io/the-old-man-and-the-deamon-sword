@@ -66,6 +66,15 @@ const GamePage = async ({ params: { locale } }: PageProps) => {
 										<i className="bi bi-play-circle me-2"></i>
 										{t("watch-teaser")}
 									</a>
+									<a
+										className="btn btn-xl btn-primary game-btn ms-3"
+										href="https://play.unity.com/en/games/0b167a69-ed9b-429b-86a2-47e37106bf41/o-velho-e-a-espada"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<i className="bi bi-controller me-2"></i>
+										Play Demo
+									</a>
 								</div>
 							</div>
 

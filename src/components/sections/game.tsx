@@ -41,6 +41,15 @@ const Game = () => {
 								<Link href={`/${locale}/game`} className="btn btn-xl btn-primary game-btn">
 									{t("discover-game")}
 								</Link>
+								<a
+									className="btn btn-xl btn-primary game-btn ms-3"
+									href="https://play.unity.com/en/games/0b167a69-ed9b-429b-86a2-47e37106bf41/o-velho-e-a-espada"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<i className="bi bi-controller me-2"></i>
+									Play Demo
+								</a>
 								<div className="mt-3 platform-info">
 									<span className="coming-soon-badge me-2">{t("coming-soon")}</span>
 									{t("platforms")}
