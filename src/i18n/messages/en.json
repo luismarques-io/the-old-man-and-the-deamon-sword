@@ -69,44 +69,109 @@
 			"distributor": "Distributed by",
 			"distributor-logo-alt": "Cinetoscópio - Cinema Distributor"
 		},
-		"festivals-title": "Special Q&A Screenings",
+		"festivals-title": "Daily and Special Q&A Screenings",
 		"image-alt-text": "Masariy Raptor",
 		"table-head": {
 			"date": "Date",
 			"location": "Location",
 			"city": "",
-			"country": ""
+			"country": "Country"
 		},
 		"table": {
 			"0": {
-				"date": "Oct 24 (Fri) 9:30 PM",
-				"location": "Ovar",
+				"date": "Oct 20 9:30 PM",
+				"location": "Cine-Teatro Avenida",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"1": {
-				"date": "Oct 25 (Sat) 6:30 PM",
-				"location": "Casa do Cinema, Coimbra",
+				"date": "Oct 22 10:00 AM",
+				"location": "JUVE - Baião",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"2": {
-				"date": "Oct 26 (Sun) 4:00 PM",
-				"location": "Mira Maia",
+				"date": "Oct 23 9:00 PM\nOct 24 9:30 PM\nOct 25 9:00 PM\nOct 26 7:00 PM\nOct 27 9:00 PM\nOct 28 7:00 PM\nOct 29 9:00 PM\nOct 31 9:30 PM",
+				"location": "Cinema Fernando Lopes - Lisbon",
+				"link": "https://cinemafernandolopes.pt/O-VELHO-E-A-ESPADA",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"3": {
-				"date": "Oct 27 (Mon) 6:30 PM",
-				"location": "FNAC Chiado",
+				"date": "Oct 24 9:30 PM",
+				"location": "Castello Lopes Cinemas Vida Ovar",
+				"link": "https://castellolopescinemas.pt/filmes/o-velho-e-a-espada/",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"4": {
-				"date": "Oct 31 (Fri) 9:30 PM",
-				"location": "Cinema Fernando Lopes",
+				"date": "Oct 25 6:30 PM",
+				"location": "Casa do Cinema, Coimbra",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
+			},
+			"5": {
+				"date": "Oct 26 4:00 PM",
+				"location": "Castello Lopes Cinemas Mira Maia",
+				"link": "https://castellolopescinemas.pt/filmes/o-velho-e-a-espada/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"6": {
+				"date": "Oct 29 9:30 PM",
+				"location": "Castello Lopes Cinemas W. Santarém",
+				"link": "https://castellolopescinemas.pt/filmes/o-velho-e-a-espada/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"7": {
+				"date": "Nov 7 time TBA",
+				"location": "Cineteatro Messias - Mealhada",
+				"link": "https://www.facebook.com/p/CineClube-G%C3%A2ndara-Bairrada-61577337390233/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"8": {
+				"date": "Daily\n1:30 PM; 3:45 PM",
+				"location": "NOS Cinemas Parque Nascente - Gondomar",
+				"link": "https://www.cinemas.nos.pt/filmes/o-velho-e-a-espada-10001736",
+				"city": "",
+				"country": "Portugal"
+			},
+			"9": {
+				"date": "Daily\n9:30 PM",
+				"location": "Cineplace 8ª Avenida - São João da Madeira",
+				"link": "https://cineplace.pt/cinemas/8a-avenida/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"10": {
+				"date": "Daily\n7:30 PM",
+				"location": "Cineplace CCC Portimão",
+				"link": "https://cineplace.pt/cinemas/continente-portimao/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"11": {
+				"date": "Daily\n8:00 PM",
+				"location": "Cineplace Nova Arcada - Braga",
+				"link": "https://cineplace.pt/cinemas/nova-arcada/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"12": {
+				"date": "Oct 30 – Nov 5\ntime TBA",
+				"location": "Cinema City Leiria",
+				"link": "https://www.cinemacity.pt/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"13": {
+				"date": "Oct 30 – Nov 5\ntime TBA",
+				"location": "Cinema City Setúbal",
+				"link": "https://www.cinemacity.pt/",
+				"city": "",
+				"country": "Portugal"
 			}
 		}
 	},

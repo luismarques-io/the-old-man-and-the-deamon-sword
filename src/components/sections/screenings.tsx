@@ -69,12 +69,18 @@ const Screenings = () => {
 				</div>
 
 				<div className="row">
-					<div className="position-relative z-1 col-md-6 scrollreveal__frombottom scrollreveal__delay050">
+					<div className="position-relative z-1 col-md-5 scrollreveal__frombottom scrollreveal__delay050">
 						<div className="image-container">
-							<Image src={`/images/masariy-raptor.avif`} alt={t("image-alt-text")} width={2678} height={2082} style={{ width: "100%", height: "auto" }} />
+							<Image
+								src={`/images/masariy-raptor.avif`}
+								alt={t("image-alt-text")}
+								width={2678}
+								height={2082}
+								style={{ width: "105%", height: "auto", position: "relative", top: "50px", left: "-20px" }}
+							/>
 						</div>
 					</div>
-					<div className="col-md-6 mt-5">
+					<div className="col-md-7 mt-5">
 						<div className="table-container">
 							<table className="table">
 								<thead>
@@ -89,19 +95,29 @@ const Screenings = () => {
 									{rowKeys.map((key) => (
 										<tr key={key}>
 											<th scope="row">
-												<div className="py-3">{t(`table.${key}.date`)}</div>
+												<div className="py-1" style={{ whiteSpace: "pre-line" }}>
+													{t(`table.${key}.date`)}
+												</div>
 											</th>
 											<td>
-												<div className="py-3">{t(`table.${key}.location`)}</div>
+												<div className="py-1">
+													{data?.Screenings?.table?.[key]?.link ? (
+														<a href={data.Screenings.table[key].link} target="_blank" rel="noopener noreferrer" className="link">
+															{t(`table.${key}.location`)}
+														</a>
+													) : (
+														<span>{t(`table.${key}.location`)}</span>
+													)}
+												</div>
 											</td>
 											{showCity && (
 												<td>
-													<div className="py-3">{t(`table.${key}.city`)}</div>
+													<div className="py-1">{t(`table.${key}.city`)}</div>
 												</td>
 											)}
 											{showCountry && (
 												<td>
-													<div className="py-3">{t(`table.${key}.country`)}</div>
+													<div className="py-1">{t(`table.${key}.country`)}</div>
 												</td>
 											)}
 										</tr>

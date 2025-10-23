@@ -69,44 +69,109 @@
 			"distributor": "配給",
 			"distributor-logo-alt": "シネトスコピオ - 映画配給会社"
 		},
-		"festivals-title": "特別上映＆Q&A",
+		"festivals-title": "デイリー上映＆特別上映（Q&Aあり）",
 		"image-alt-text": "マサリヤ ラプター",
 		"table-head": {
 			"date": "日付",
 			"location": "場所",
 			"city": "",
-			"country": ""
+			"country": "国"
 		},
 		"table": {
 			"0": {
-				"date": "10月24日（金）21:30",
-				"location": "オヴァール（Ovar）",
+				"date": "10/20 21:30",
+				"location": "シネ・テアトロ・アヴェニーダ",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"1": {
-				"date": "10月25日（土）18:30",
-				"location": "コインブラ・シネマハウス",
+				"date": "10/22 10:00",
+				"location": "JUVE - バイアン（Baião）",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"2": {
-				"date": "10月26日（日）16:00",
-				"location": "ミラ・マイア",
+				"date": "10/23 21:00\n10/24 21:30\n10/25 21:00\n10/26 19:00\n10/27 21:00\n10/28 19:00\n10/29 21:00\n10/31 21:30",
+				"location": "シネマ・フェルナンド・ロペス（リスボン）",
+				"link": "https://cinemafernandolopes.pt/O-VELHO-E-A-ESPADA",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"3": {
-				"date": "10月27日（月）18:30",
-				"location": "FNACシアード",
+				"date": "10/24 21:30",
+				"location": "カステロ・ロペス・シネマズ・ヴィダ・オヴァール",
+				"link": "https://castellolopescinemas.pt/filmes/o-velho-e-a-espada/",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
 			},
 			"4": {
-				"date": "10月31日（金）21:30",
-				"location": "シネマ・フェルナンド・ロペス",
+				"date": "10/25 18:30",
+				"location": "コインブラ・映画の家（Casa do Cinema）",
 				"city": "",
-				"country": ""
+				"country": "Portugal"
+			},
+			"5": {
+				"date": "10/26 16:00",
+				"location": "カステロ・ロペス・シネマズ・ミラ・マイア",
+				"link": "https://castellolopescinemas.pt/filmes/o-velho-e-a-espada/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"6": {
+				"date": "10/29 21:30",
+				"location": "カステロ・ロペス・シネマズ W. サンタレン",
+				"link": "https://castellolopescinemas.pt/filmes/o-velho-e-a-espada/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"7": {
+				"date": "11/7 時間未定",
+				"location": "シネテアトロ・メシアス（メアリャーダ）",
+				"link": "https://www.facebook.com/p/CineClube-G%C3%A2ndara-Bairrada-61577337390233/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"8": {
+				"date": "毎日\n13:30／15:45",
+				"location": "NOS シネマズ・パルケ・ナシェンテ（ゴンドマール）",
+				"link": "https://www.cinemas.nos.pt/filmes/o-velho-e-a-espada-10001736",
+				"city": "",
+				"country": "Portugal"
+			},
+			"9": {
+				"date": "毎日\n21:30",
+				"location": "Cineplace 8ª Avenida（サン・ジョアン・ダ・マデイラ）",
+				"link": "https://cineplace.pt/cinemas/8a-avenida/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"10": {
+				"date": "毎日\n19:30",
+				"location": "Cineplace CCC ポルティマン",
+				"link": "https://cineplace.pt/cinemas/continente-portimao/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"11": {
+				"date": "毎日\n20:00",
+				"location": "Cineplace ノヴァ・アルカダ（ブラガ）",
+				"link": "https://cineplace.pt/cinemas/nova-arcada/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"12": {
+				"date": "10/30 – 11/5\n時間未定",
+				"location": "シネマ・シティ・レイリア",
+				"link": "https://www.cinemacity.pt/",
+				"city": "",
+				"country": "Portugal"
+			},
+			"13": {
+				"date": "10/30 – 11/5\n時間未定",
+				"location": "シネマ・シティ・セトゥーバル",
+				"link": "https://www.cinemacity.pt/",
+				"city": "",
+				"country": "Portugal"
 			}
 		}
 	},
