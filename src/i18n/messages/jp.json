@@ -91,7 +91,7 @@
 				"country": "Portugal"
 			},
 			"2": {
-				"date": "10/23 21:00\n10/24 21:30\n10/25 21:00\n10/26 19:00\n10/27 21:00\n10/28 19:00\n10/29 21:00\n10/31 21:30",
+				"date": "10/23 21:00\n10/24 21:30\n10/25 21:00\n10/26 19:00\n10/27 21:00\n10/28 19:00\n10/29 21:00\n10/31 21:30 - ハロウィン特別上映\n11/1 15:00\n11/2 21:30\n11/5 21:30",
 				"location": "シネマ・フェルナンド・ロペス（リスボン）",
 				"link": "https://cinemafernandolopes.pt/O-VELHO-E-A-ESPADA",
 				"city": "",
@@ -125,9 +125,9 @@
 				"country": "Portugal"
 			},
 			"7": {
-				"date": "11/7 時間未定",
+				"date": "11/7 21:30",
 				"location": "シネテアトロ・メシアス（メアリャーダ）",
-				"link": "https://www.facebook.com/p/CineClube-G%C3%A2ndara-Bairrada-61577337390233/",
+				"link": "https://cineteatromessias.cm-mealhada.pt/eventos/3893/Encontros_do_Cinema_na_Mealhada",
 				"city": "",
 				"country": "Portugal"
 			},
@@ -160,16 +160,16 @@
 				"country": "Portugal"
 			},
 			"12": {
-				"date": "10/30 – 11/5\n時間未定",
+				"date": "毎日\n20:20",
 				"location": "シネマ・シティ・レイリア",
-				"link": "https://www.cinemacity.pt/",
+				"link": "https://www.cinemacity.pt/movie/velho-e-a-espada/",
 				"city": "",
 				"country": "Portugal"
 			},
 			"13": {
-				"date": "10/30 – 11/5\n時間未定",
-				"location": "シネマ・シティ・セトゥーバル",
-				"link": "https://www.cinemacity.pt/",
+				"date": "毎日\n20:00",
+				"location": "シネマ・シティ・アレグロ・セトゥーバル",
+				"link": "https://www.cinemacity.pt/movie/velho-e-a-espada/",
 				"city": "",
 				"country": "Portugal"
 			}

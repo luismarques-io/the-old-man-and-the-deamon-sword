@@ -91,7 +91,7 @@
 				"country": "Portugal"
 			},
 			"2": {
-				"date": "Oct 23 9:00 PM\nOct 24 9:30 PM\nOct 25 9:00 PM\nOct 26 7:00 PM\nOct 27 9:00 PM\nOct 28 7:00 PM\nOct 29 9:00 PM\nOct 31 9:30 PM",
+				"date": "Oct 23 9:00 PM\nOct 24 9:30 PM\nOct 25 9:00 PM\nOct 26 7:00 PM\nOct 27 9:00 PM\nOct 28 7:00 PM\nOct 29 9:00 PM\nOct 31 9:30 PM - Special Halloween Screening\nNov 1 3:00 PM\nNov 2 9:30 PM\nNov 5 9:30 PM",
 				"location": "Cinema Fernando Lopes - Lisbon",
 				"link": "https://cinemafernandolopes.pt/O-VELHO-E-A-ESPADA",
 				"city": "",
@@ -125,9 +125,9 @@
 				"country": "Portugal"
 			},
 			"7": {
-				"date": "Nov 7 time TBA",
+				"date": "Nov 7 9:30 PM",
 				"location": "Cineteatro Messias - Mealhada",
-				"link": "https://www.facebook.com/p/CineClube-G%C3%A2ndara-Bairrada-61577337390233/",
+				"link": "https://cineteatromessias.cm-mealhada.pt/eventos/3893/Encontros_do_Cinema_na_Mealhada",
 				"city": "",
 				"country": "Portugal"
 			},
@@ -160,16 +160,16 @@
 				"country": "Portugal"
 			},
 			"12": {
-				"date": "Oct 30 – Nov 5\ntime TBA",
+				"date": "Daily\n8:20 PM",
 				"location": "Cinema City Leiria",
-				"link": "https://www.cinemacity.pt/",
+				"link": "https://www.cinemacity.pt/movie/velho-e-a-espada/",
 				"city": "",
 				"country": "Portugal"
 			},
 			"13": {
-				"date": "Oct 30 – Nov 5\ntime TBA",
-				"location": "Cinema City Setúbal",
-				"link": "https://www.cinemacity.pt/",
+				"date": "Daily\n8:00 PM",
+				"location": "Cinema City Alegro Setúbal",
+				"link": "https://www.cinemacity.pt/movie/velho-e-a-espada/",
 				"city": "",
 				"country": "Portugal"
 			}
